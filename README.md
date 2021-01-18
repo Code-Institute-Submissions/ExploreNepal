@@ -1,45 +1,30 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Purpose/Aim
 
-Welcome shiva123-coder,
+The website serves as an educational site for sharing information and knowledge about Nepal. The development of this website is targeted to educate the users or readers to 
+get familiar with Nepal as country, its vast cultures, the interesting places as attractions to visit and most importantly to introduce some of Nepalese traditional cuisines.
+Another purpose of this website is to interact with users or readers by allowing them to share their experiences about Nepal whether through travelling or any ideas to be 
+included into this website. The website also displays various images of places in Nepal and Nepalese cuisines to help users and readers with the visualizations of the topics. 
+Interactive Google map is added to allow users to locate the interesting and beautiful places in various regions of Nepal. 
+With the specified purpose and aim in mind, I have decided to build this website to reach out to the broader and wider users around the world, while also trying to introduce 
+the amazing yet interesting information about Nepal. This will hopefully attract more people or traveller to visit the beautiful Nepal once the pandemic is over as well as 
+trigger the interests of all the users who access this website.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+## User Stories
 
-## Gitpod Reminders
+### First Time User Goals
+- As a First Time User of this site, I want to easily navigate the site across all pages
+- As a First Time User of this site, I want to get educated with knowledge about Nepal as a country with its unique attractions and traditional cuisines
+- As a First Time User of this site, I want to get information of Nepalese people, culture and any interesting or fun facts about the country itself
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### Frequent User Goals
+- As a Frequent User of this site, I want to easily navigate the site across all pages
+- As a Frequent User of this site, I want to find new information about Nepal, e.g. interesting facts which updated into this website
+- As a Frequent User of this site, I want to be able to get updates about places and attractions to visit in Nepal
+- As a Frequent User of this site, I want to learn about some of the traditional and famous Nepalese cuisines 
+- As a Frequent User of this site, I want to get connected with various knowledge about Nepal via social media.
 
-`python3 -m http.server`
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+### Return Users Goals
+- As a Return User of this site, I want to easily navigate the site across all pages
+- As a Return User of this site, I want to be able read through all the information and update my knowledge about Nepal, in general
+- As a Return User of this site, I want to find various locations of places or attractions in Nepal as well as get updated with the mouth-watering Nepalese cuisines
+- As a Return User of this site, I want to be able to contact the administrator to answer any query I may have about Nepal and at the same time sharing my experiences which might be useful for new ideas of this website
