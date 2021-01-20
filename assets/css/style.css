@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: "Yusei Magic", sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+    overflow-x: hidden;
+}
+
+/*----- Navbar------------------------*/
+.bg-light {
+  background-color: #24537005 !important;
+  z-index: 2;
+}
+
+#logo{
+    height: 40px;
+    width: 40px;
+}
+
+/*-------------------Landing Page -------------------*/
+section {
+    
+    text-align: center;
+}
+
+.wrapper {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    overflow: hidden;
+}
+
+.video-wrap video{
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.video-overlay{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+   background: #225470;
+    z-index: 1;
+    opacity: 0.85;
+}
+
+
+
+.video-content{
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-content h1{
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+.header-content p{
+    font-size: 1.5rem;
+    display: block;
+    padding-bottom: 2rem;
+}
