@@ -23,6 +23,11 @@ body{
     margin-left: 0.75em;
 }
 
+.navbar-light .navbar-nav .active .nav-link {
+  color: #000000;
+}
+
+
 #logo{
     height: 40px;
     width: 40px;
@@ -46,6 +51,7 @@ section {
 .video-wrap video{
     min-width: 100vw;
     min-height: 100vh;
+    overflow: hidden;
 }
 
 .video-overlay{
@@ -76,4 +82,18 @@ section {
     font-size: 1.5rem;
     display: block;
     padding-bottom: 2rem;
+}
+
+/*-----------------------Footer------------*/
+#footer{
+    height: auto;
+    width: 100%;
+    background-color: #24537005;
+    text-align: center;
+    background-color: darkcyan;
+    position: absolute;
+}
+
+.footer-text{
+    margin-bottom: 3px;
 }

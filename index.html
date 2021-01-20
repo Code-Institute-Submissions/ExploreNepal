@@ -12,9 +12,11 @@
     <title>Explore Nepal</title>
 </head>
 <body>
+<!-----------------------Navbar------------->
+<!---Bootstrap Library used to create response Navbar-->
    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light mr-auto">
        <a class="navbar-brand" href="#">
-           <img id="logo" alt="logo" src="assets/images/logo-nepal.jpg">
+           <img id="logo" class="d-none d-md-block" alt="logo" src="assets/images/logo-nepal.jpg">
        </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenuContent" aria-controls="navbarMenuContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -22,33 +24,25 @@
                 <div class="collapse navbar-collapse" id="navbarMenuContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link hvr-wobble-bottom" href="index.html">Home
-                                <span class="vl d-none d-lg-block"></span><span class="sr-only">(current)</span>
+                            <a class="nav-link hvr-wobble-bottom" href="index.html">Home<span class="sr-only">(current)</span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link hvr-wobble-bottom" href="intro.html">Information
-                                <span class="vl d-none d-lg-block"></span>
-                            </a>
+                            <a class="nav-link hvr-wobble-bottom" href="intro.html">Information</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link hvr-wobble-bottom" href="info.html">Explore
-                                <span class="vl d-none d-lg-block"></span>
-                            </a>
+                            <a class="nav-link hvr-wobble-bottom" href="info.html">Explore</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link hvr-wobble-bottom" href="join.html">Traditional Cuising
-                                <span class="vl d-none d-lg-block"></span>
-                            </a>
+                            <a class="nav-link hvr-wobble-bottom" href="join.html">Traditional Cuisine</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link hvr-wobble-bottom" href="join.html">contact Us
-                                <span class="vl d-none d-lg-block"></span>
-                            </a>
+                            <a class="nav-link hvr-wobble-bottom" href="join.html">Contact Us</a>
                         </li>
                     </ul>
                 </div>
             </nav>
+<!------------------------------Background-Video--------------->
     <section class="wrapper">
         <div class="video-wrap">
             <video src="assets/videos/video1.mp4" type="video/mp4" autoplay loop muted playsinline></video>
@@ -67,5 +61,16 @@
             </p>
         </div>
     </section>
+<!-------------------Footer-------------------->
+ <div id="footer">
+     <p class="footer-text">Contents of this website is copyright of Shiva Neupane</p>
+ </div>
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+ 
 </body>
 </html>
