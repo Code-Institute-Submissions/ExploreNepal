@@ -34,3 +34,5 @@ trigger the interests of all the users who access this website.
 - Issue with Navbar as Navbar did not overlay correctly on top of video on Home page which resulted Navbar appear seperately on top of the page and [video display only below Navbar](assets/images/navbar-issue1.jpg).
   - I have fixed this issue by utilizing the devtool : bg-dark class that was added to nav replaced  by bg-light class then set background color of bg-light class to #24537005 which
 ressolved an issue.
+- [Background video on the home page did not cover entire screen](assets/images/padding-issue.jpg) eventhough container-fluid class was used, instead left with some white space on both left and right hand side of the screen which was not desired outcome.
+  - Issue was fixed by adding some extra css property to main container class: value of 0 set to both padding right and padding left to main-container class and this solved issue.
