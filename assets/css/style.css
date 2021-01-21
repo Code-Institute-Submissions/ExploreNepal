@@ -24,15 +24,6 @@ body{
     padding-left: 0;
 }
 
-.heading,
-.about,
-.people,
-.facts{
-    padding-top: 10%;
-    align-items: center;
-    text-align: center;
-}
-
 /*----- Navbar------------------------*/
 .bg-light {
   background-color: #36627d !important;
@@ -110,20 +101,14 @@ body{
 }
 /*------------Information Page------------------*/
 
-
-/* .about-container{
-    padding-left: 0;
-    padding-right: 0;
-} */
-
-
 .heading-about{
     margin: auto;
     
 }
 
 #box1,
-#box2{
+#box2,
+#boxy{
     height: 70vh;
     width: 100%;
     border: 2px solid blue;
@@ -133,10 +118,6 @@ body{
 
 /*-------------Explore page------------*/
 
-.image2{
-    width: 100vw;
-    height: 100%;
-}
 /*-----------------------Footer------------*/
 #footer{
     height: auto;
