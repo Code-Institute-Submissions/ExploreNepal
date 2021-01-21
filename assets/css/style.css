@@ -24,9 +24,18 @@ body{
     padding-left: 0;
 }
 
+.heading,
+.about,
+.people,
+.facts{
+    padding-top: 10%;
+    align-items: center;
+    text-align: center;
+}
+
 /*----- Navbar------------------------*/
 .bg-light {
-  background-color: #24537005 !important;
+  background-color: #36627d !important;
   z-index: 2;
 }
 
@@ -47,6 +56,10 @@ body{
 }
 
 /*-------------------Landing Page -------------------*/
+#home{
+    margin-top: -80px;
+}
+
 .video-content {
      text-align: center;
 }
@@ -97,6 +110,33 @@ body{
 }
 /*------------Information Page------------------*/
 
+
+/* .about-container{
+    padding-left: 0;
+    padding-right: 0;
+} */
+
+
+.heading-about{
+    margin: auto;
+    
+}
+
+#box1,
+#box2{
+    height: 70vh;
+    width: 100%;
+    border: 2px solid blue;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/*-------------Explore page------------*/
+
+.image2{
+    width: 100vw;
+    height: 100%;
+}
 /*-----------------------Footer------------*/
 #footer{
     height: auto;
@@ -110,9 +150,6 @@ body{
 .footer-text{
     margin-bottom: 3px;
 }
-
-
-
 
 /*------------------Media Queries--------*/
 @media screen and (max-width: 992px){
