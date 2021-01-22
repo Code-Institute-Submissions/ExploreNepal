@@ -47,10 +47,6 @@ body{
 }
 
 /*-------------------Landing Page -------------------*/
-#home{
-    margin-top: -80px;
-}
-
 .video-content {
      text-align: center;
 }
@@ -66,12 +62,12 @@ body{
 
 .video-wrap video{
     min-width: 100vw;
-    min-height: 100vh;
+    min-height: 105vh;
     overflow: hidden;
 }
 
 .video-overlay{
-    height: 100vh;
+    height: 105vh;
     width: 100vw;
     position: absolute;
    background: #225470;

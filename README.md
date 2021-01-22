@@ -31,10 +31,12 @@ trigger the interests of all the users who access this website.
 
 
 ## Issues and Resolutions
-- Issue with Navbar as Navbar did not overlay correctly on top of video on Home page which resulted Navbar appear seperately on top of the page and [video display only below Navbar](assets/images/navbar-issue1.jpg).
+- Issue with Navbar as Navbar did not overlay correctly on top of video on Home page which resulted Navbar appear seperately on top of the page and [video display only below Navbar](assets/images/issue-navbar.jpg).
   - I have fixed this issue by utilizing the devtool : bg-dark class that was added to nav replaced  by bg-light class then set background color of bg-light class to #24537005 which
 ressolved an issue.
 - [Background video on the home page did not cover entire screen](assets/images/padding-issue.jpg) eventhough container-fluid class was used, instead left with some white space on both left and right hand side of the screen which was not desired outcome.
   - Issue was fixed by adding some extra css property to main container class: value of 0 set to both padding right and padding left to main-container class and this solved issue.
-- Padding issue between the columns inside the row : while using col-md-2 classes to created two columns inide the row there was a [excess white space between those columns](assets/images/padding-issue.jpg) however no space between colums was desired outcome.
+- Padding issue between the columns inside the row : while using col-md-2 classes to created two columns inide the row there was a [excess white space between those columns](assets/images/-ssue-padding.jpg) however no space between colums was desired outcome.
   - I have used bootstrap documentation to find the solution of this : I added no-gutters class to the row which hold those columns and this solve an issue.  
+- I noticed that [top section of second page was overlapping](assets/images/issue-margin.jpg) on the bottom of the first page which i didnt wanted and this was definitely a poorly presented pahe which needed to be fixed.
+ - On my style.css I had previously used negative margin-top of 80px to the home id which was i used for different purpose however this was causing an issue of page overlapping and issue resolved once i remove this style from my style.css 
