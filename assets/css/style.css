@@ -109,6 +109,10 @@ body{
 #carouselExampleIndicators {
     padding-top: 10%;
     }
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    margin-top: 190%;
+}
 
 .col-text1{
     background: chocolate;
