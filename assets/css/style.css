@@ -100,7 +100,39 @@ body{
     background: #225470;
 }
 
+.main-heading-info{
+    padding-top: 5%;
+    margin-bottom: -2%;
+    text-align: center;
+}
 
+#carouselExampleIndicators {
+    padding-top: 10%;
+    }
+
+.col-text1{
+    background: chocolate;
+}
+
+.col-text2{
+    background: rgb(126, 207, 116);
+}
+
+.col-text3{
+    background: rgb(173, 55, 81);
+}
+
+.col-text4{
+    background: rgba(64, 68, 94, 0.781);
+}
+
+.col-text5{
+    background: rgba(200, 92, 243, 0.781);
+}
+
+.col-text6{
+    background: rgba(197, 218, 78, 0.781);
+}
 /*-------------Explore page------------*/
 
 /*-----------------------Footer------------*/
