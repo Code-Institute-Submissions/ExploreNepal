@@ -39,4 +39,4 @@ ressolved an issue.
 - Padding issue between the columns inside the row : while using col-md-2 classes to created two columns inide the row there was a [excess white space between those columns](assets/images/-ssue-padding.jpg) however no space between colums was desired outcome.
   - I have used bootstrap documentation to find the solution of this : I added no-gutters class to the row which hold those columns and this solve an issue.  
 - I noticed that [top section of second page was overlapping](assets/images/issue-margin.jpg) on the bottom of the first page which i didnt wanted and this was definitely a poorly presented pahe which needed to be fixed.
-  - On my style.css I had previously used negative margin-top of 80px to the home id which was i used for different purpose however this was causing an issue of page overlapping and issue resolved once i remove this style from my style.css 
+  - On my style.css I had previously used negative margin-top of 80px to the home id which was used for different purpose however this was causing an issue with page overlapping and issue resolved once i remove this style from my style.css 

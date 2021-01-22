@@ -100,15 +100,16 @@ body{
     background: #225470;
 }
 
-.main-heading-info{
+.heading-info{
     padding-top: 5%;
-    margin-bottom: -2%;
+    margin-bottom: 3%;
     text-align: center;
 }
 
 #carouselExampleIndicators {
     padding-top: 10%;
     }
+
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
     margin-top: 190%;
@@ -137,7 +138,24 @@ body{
 .col-text6{
     background: rgba(197, 218, 78, 0.781);
 }
+
+.heading-carousel{
+    margin-left: 5%;
+}
+
+.heading-sub-carousel{
+    margin: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+}
 /*-------------Explore page------------*/
+#expo{
+    height: 100vh;
+    width: 100vw;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: rgb(78, 35, 19);
+}
 
 /*-----------------------Footer------------*/
 #footer{
