@@ -187,11 +187,9 @@ body{
     border: none;
     border-radius: 2px;
     outline: none;
-    cursor: pointer;
+    cursor: pointer; 
     text-align: center;
     padding-top: 0.85em;
-    margin-right: 50%;
-    margin-left: 50%;  
 }
 
 .allButton{
