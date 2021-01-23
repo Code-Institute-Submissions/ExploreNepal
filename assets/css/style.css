@@ -4,11 +4,21 @@
 
 body{
     margin: 0;
-    font-family: "Yusei Magic", sans-serif;
     font-size: 1rem;
     line-height: 1.5;
     overflow-x: hidden;
 }
+
+.heading{
+    font-family: "Yusei Magic", sans-serif;
+    font-size: 1.75em;
+}
+
+.heading-sub{
+     font-family: "Ovo", sans-serif;
+    font-size: 1em;
+}
+
 
 #home,
 #info,
@@ -157,6 +167,47 @@ body{
     background-color: rgb(78, 35, 19);
 }
 
+#box{
+    height: 450px;
+    width: 450px;
+    border-radius: 100%;
+    border: 10px solid white;
+    margin-left: 20px;
+}
+
+.btn{
+   height: 40px;
+    width: 175px;
+    background: #4e5a56;
+    color: #001305;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin: 10px 0;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 0.85em;
+    margin-right: 80%;
+}
+
+.btn-row{
+margin-top: 10em;
+}
+
+.heading-places{
+    margin-top: 10%;
+    color: #36627d;
+}
+
+#map{
+    height: 70vh;
+    width: 100%;
+    border: 2px solid white;
+    margin-left: -5px;
+    margin-top: 6em;
+}
 /*-----------------------Footer------------*/
 #footer{
     height: auto;
@@ -178,6 +229,11 @@ body{
     }
 }
 
+@media screen and (max-width: 576){
+    .btn{
+        display: inline;
+    }
+}
 /* @media screen and (max-width: 576px) {
   .navbar-light .navbar-nav .nav-link {
     font-size: 14px;
