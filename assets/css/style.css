@@ -173,6 +173,7 @@ body{
     border-radius: 100%;
     border: 10px solid white;
     margin-left: 20px;
+    
 }
 
 .btn{
@@ -189,17 +190,23 @@ body{
     cursor: pointer;
     text-align: center;
     padding-top: 0.85em;
-    margin-right: 80%;
+    margin-right: 50%;
+    margin-left: 50%;  
 }
 
-.btn-row{
-margin-top: 10em;
+.allButton{
+display: inline;
+}
+
+.expo-container{
+padding-top: 7em;
 }
 
 .heading-places{
     margin-top: 10%;
     color: #36627d;
 }
+
 
 #map{
     height: 70vh;
@@ -229,11 +236,13 @@ margin-top: 10em;
     }
 }
 
-@media screen and (max-width: 576){
+@media screen and (min-width: 992px){
     .btn{
-        display: inline;
+        display: block;
+        
     }
 }
+
 /* @media screen and (max-width: 576px) {
   .navbar-light .navbar-nav .nav-link {
     font-size: 14px;
