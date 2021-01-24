@@ -25,7 +25,7 @@ body{
 #expo,
 #cuisine,
 #contact{
-    width: 100%;
+    width: 100vw;
     height: 100vh;
 }
 
@@ -38,6 +38,7 @@ body{
 .bg-light {
   background-color: #36627d !important;
   z-index: 2;
+  width: 100vw;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -80,7 +81,7 @@ body{
     height: 105vh;
     width: 100vw;
     position: absolute;
-   background: #225470;
+    background: #225470;
     z-index: 1;
     opacity: 0.85;
 }
@@ -167,33 +168,6 @@ body{
     background-color: #e26c517d;
 }
 
-#box{
-   height: 50vh;
-    width: 100%;
-    border: 10px solid white;
-    padding-left: 0;
-    margin-right: 0;
-    padding-right: 0;
-    margin-left: -8px;
-    
-}
-
-.btn{
-   height: 40px;
-    width: 175px;
-    background: #4e5a56;
-    color: #001305;
-    font-size: 0.8rem;
-    font-weight: 600;
-    margin: 10px 0;
-    border: none;
-    border-radius: 2px;
-    outline: none;
-    cursor: pointer; 
-    text-align: center;
-    padding-top: 0.85em;
-}
-
 .expo-container{
 padding-top: 7em;
 }
@@ -202,6 +176,37 @@ padding-top: 7em;
     margin-top: 10%;
     color: #36627d;
 }
+
+.box{
+   height: 50vh;
+   width: 60%;
+   border-radius: 50px;
+    border: 10px solid white;
+    padding-left: 0;
+    margin-right: 0;
+    padding-right: 0;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+    
+}
+
+.btn{
+   height: 60px;
+    width: 120px;
+    border: 9px solid green;
+    color: #001305;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin: 10px;
+    cursor: pointer; 
+    text-align: center;
+    padding-top: 0.85em;
+}
+
+/* .allButtons{
+    margin-left: 50%;
+    margin-right: 50%;
+} */
 
 #map{
     height: 70vh;
