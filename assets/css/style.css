@@ -23,10 +23,9 @@ body{
 #home,
 #info,
 #expo,
-#cuisine,
 #contact{
     width: 100vw;
-    height: 100vh;
+    height: auto;
 }
 
 .main-container{
@@ -117,7 +116,7 @@ body{
     text-align: center;
 }
 
-#carouselExampleIndicators {
+#carouseIndicators {
     padding-top: 10%;
     }
 
@@ -214,6 +213,13 @@ padding-top: 7em;
     border: 2px solid white;
     margin-left: -5px;
 }
+
+/*----------Contact Page---------*/
+#contact{
+    /* background: rgb(236, 127, 127); */
+    background: url("../images/village.jpg") no-repeat;
+}
+
 /*-----------------------Footer------------*/
 #footer{
     height: auto;
