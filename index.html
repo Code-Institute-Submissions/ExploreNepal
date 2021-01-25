@@ -255,13 +255,14 @@
         <section id="contact">
             <div class="container form-container">
                 <div class="row form-row">
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6 col-heading">
+                        <div class="caption">
                         <h1 class="heading heading-form">Lorem ipsum dolor sit amet.</h1>
                         <p class="heading-sub heading-sub-form">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Quasi consequatur temporibus labore architecto
                             necessitatibus impedit porro asperiores ipsam quia obcaecati!</p>
                         <div class="location">
-                            <span class="icon"><i class="fas fa-map-marked-alt"></i></span>
+                            <span class="icon "><i class="fas fa-map-marked-alt"></i></span>
                             <span class="heading-sub">10 Neupane Mansion Butwal, Nepal NPWN5</span>
                         </div>
                         <div class="mail">
@@ -272,9 +273,11 @@
                             <span class="icon"><i class="fas fa-phone-alt"></i></span>
                             <span class="heading-sub">+900 071 12345</span>
                         </div>
+                        <div class="social-media-heading">
+                           Our Social media pages get updated daily! <br>
+                           Dont forget to visit!
+                        </div>
                         <div class="social-media">
-                            <p>we are on social medai too:</p>
-                            <div class="social-icons">
                                 <a href="#">
                                     <i class="fab fa-facebook-f"></i>
                                 </a>
@@ -289,38 +292,36 @@
                                 </a>
                             </div>
                         </div>
-                    </div>
+                        </div>
                     <div class="col-12 col-md-6 col-form">
                         <div class="contact-form">
-                        <form action="index.html" autocomplete="off">
-                            <h1 class="heading heading-form">Contact Us</h1>
-                        <div class="input-container">
-                            <input type="text" name="name" class="input" />
-                            <label for="">Username</label>
-                            <span>Username</span>
-                        </div>
-                        <div class="input-container">
-                            <input type="email" name="email" class="input" />
-                            <label for="">Email</label>
-                            <span>Email</span>
-                        </div>
-                        <div class="input-container">
-                            <input type="tel" name="phone" class="input" />
-                            <label for="">Phone</label>
-                            <span>Phone</span>
-                        </div>
-                        <div class="input-container textarea">
-                            <textarea name="message" class="input"></textarea>
-                            <label for="">Message</label>
-                            <span>Message</span>
-                        </div>
-                        </form>
+                            <form action="index.html" autocomplete="off">
+                                <h1 class="heading heading-contact">Contact Us</h1>
+
+                                <label for="fname">First Name</label>
+                                <input type="text" id="fname" name="firstname" required placeholder="Your name" />
+
+
+                                <label for="lname">Last Name</label>
+                                <input type="text" id="lname" name="lastname" required placeholder="Your last name" />
+
+
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" required placeholder="Your email" />
+
+
+                                <label for="subject">Subject</label>
+                                <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+
+
+                                <input class="btn btn-success btn-form" type="submit" value="Send" />
+                            </form>
                         </div>
                     </div>
 
                 </div>
-
             </div>
+
         </section>
         <!-------------------Footer-------------------->
         <div id="footer">
