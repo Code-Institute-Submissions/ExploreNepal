@@ -160,8 +160,6 @@ body{
 }
 /*-------------Explore page------------*/
 #expo{
-    height: 100vh;
-    width: 100vw;
     padding-left: 0;
     padding-right: 0;
     background-color: #e26c517d;
@@ -216,8 +214,7 @@ padding-top: 7em;
 
 /*----------Contact Page---------*/
 #contact{
-    /* background: rgb(236, 127, 127); */
-    background: url("../images/village.jpg") no-repeat;
+    background: url("../images/village.jpg");
 }
 
 /*-----------------------Footer------------*/
