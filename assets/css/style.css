@@ -210,10 +210,23 @@ padding-top: 7em;
 /*-------------------------------Contact Page-------------------*/
 #contact{
     background: url("../images/village.jpg");
+    }
+
+.form-container{
+    position: relative;
+    height: 70vh;
+    width: 100%;
+    padding-left: 0;
+}
+
+.form-row{
+    padding-right: 0;
+    padding-left: -5px;
 }
 
 .col-heading{
     padding-top: 5px;
+    background: #f0f8ffba;
 }
 
 .caption{
@@ -257,27 +270,13 @@ margin-right: 5px;
     text-decoration: black;
 }
 
-.form-container{
-    position: relative;
-    height: 70vh;
-    width: 100%;
-    padding-left: 0;
+.col-form{
+    background-color:  rgb(50 96 55);
 
 }
+
 label{
     display: flex;
-}
-
-
-.form-row{
-    background: hotpink;
-    padding-right: 0;
-    padding-left: -5px;
-}
-
-.col-form{
-    background-color: green;
-
 }
 
 /*Code taken from youtube video of True Coder (https://www.youtube.com/watch?v=rpujWVkmiPE) and modified as per project requirement--START-- */
@@ -285,7 +284,7 @@ label{
 .contact-form::before{
    content: "";
     position: absolute;
-    background-color: green;
+    background-color:  rgb(50 96 55);
     width: 30px;
     height: 30px;
     transform: rotate(45deg);
