@@ -188,35 +188,42 @@ padding-bottom: 10%;
 }
 
 
-.heading-sub-places{
-    padding-top: 8%;
-    padding-right: 70px;
-    padding-left: 60px;
+.heading-place{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto; 
+    text-align: start;
 }
 
- .box{
-   height: 50vh;
-   width: 100%;
-   border-radius: 50px;
-    border: 10px solid white;
+ .circle{
+   height: 350px;
+   width: 350px;
+   border-radius: 100%;
+    border: 15px solid rgb(175, 13, 13);
     padding-left: 0;
-    margin-right: 0;
     padding-right: 0;
-    margin-left: 50%;
-    transform: translate(-50%, 0);
-    float: left;
-    
+    margin: 0 auto;
+    margin-bottom: 100px;
 } 
 
+/*-START--Purpose of this code is to only make circle responsive (code taken from youtube video of zFunx Web Developement Ideas(https://www.youtube.com/watch?v=R7OcJyL_rbw)and modified as per project requirement--START--*/
+.circle:after{
+    content: "";
+    padding-bottom: 50%;
+    display: block;
+}
+/*--END--code taken from youtube video of zFunx Web Developement Ideas(https://www.youtube.com/watch?v=R7OcJyL_rbw) and modified as per project requirement--*/
+
 .btn{
-   height: 60px;
-    width: 120px;
-    border: 9px solid green;
+   height: 40px;
+    width: 180px;
+    border: none;
     color: #001305;
     font-size: 0.8rem;
     font-weight: 600;
-    display: flex;
     margin-bottom: 15px;
+    margin-right: 15px;
+
     /* margin: 10px;
     cursor: pointer; 
     text-align: center;
@@ -225,8 +232,12 @@ padding-bottom: 10%;
     float: right; */
 }
 
+.button-places{
+    margin-bottom: 20px;
+}
+
 #map{
-    height: 70vh;
+    height: 320px;
     width: 100%;
     border: 2px solid white;
     margin-left: -5px;
