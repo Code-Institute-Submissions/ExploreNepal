@@ -107,28 +107,35 @@ body{
 }
 /*------------------Information Page------------------*/
 #info{
-    background: #43658b;
+    background: url("../images/lake2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
-.container-carousel{
-    padding-top: 10%;
-    padding-bottom: 20%;
+.wrapper-text{
+padding-top: 2%;
+    margin-bottom: -6%;
+    padding-right: 30px;
+    padding-left: 20px;
 }
 
 .heading-info{
-    /* padding-top: 5%;
-    margin-bottom: 3%; */
     text-align: center;
+    padding-bottom: 2%;
+}
+/* .heading-sub-info{infoe
+    padding-bottom: -3%;
+} */
+
+.container-carousel{
+    padding-top: 8%;
+    padding-left: 0;
 }
 
 #carouseIndicators {
     padding-top: 10%;
     }
-
-.carousel-control-next-icon,
-.carousel-control-prev-icon {
-    margin-top: 190%;
-}
 
 .col-text1{
     background: #d4bfaf;
