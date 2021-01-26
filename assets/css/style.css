@@ -8,7 +8,7 @@ body{
     line-height: 1.5;
     overflow-x: hidden;
 }
-
+/*---------------Specials---------------*/
 .heading{
     font-family: "Yusei Magic", sans-serif;
     font-size: 1.75em;
@@ -33,7 +33,7 @@ body{
     padding-left: 0;
 }
 
-/*----- Navbar------------------------*/
+/*----------------Navbar------------------------*/
 .bg-light {
   background-color: #36627d !important;
   z-index: 2;
@@ -105,9 +105,9 @@ body{
     display: block;
     padding-bottom: 2rem;
 }
-/*------------Information Page------------------*/
+/*------------------Information Page------------------*/
 #info{
-    background: #225470;
+    background: #43658b;
 }
 
 .heading-info{
@@ -126,7 +126,7 @@ body{
 }
 
 .col-text1{
-    background: chocolate;
+    background: #d4bfaf;
 }
 
 .col-text2{
@@ -138,7 +138,7 @@ body{
 }
 
 .col-text4{
-    background: rgba(64, 68, 94, 0.781);
+    background: rgb(170 173 191 / 78%);
 }
 
 .col-text5{
@@ -158,11 +158,11 @@ body{
     padding-right: 10px;
     padding-left: 10px;
 }
-/*-------------Explore page------------*/
+/*--------------------------Explore page-----------------------*/
 #expo{
     padding-left: 0;
     padding-right: 0;
-    background-color: #e26c517d;
+   background-color: #ed6663;
 }
 
 .expo-container{
@@ -200,11 +200,6 @@ padding-top: 7em;
     padding-top: 0.85em;
 }
 
-/* .allButtons{
-    margin-left: 50%;
-    margin-right: 50%;
-} */
-
 #map{
     height: 70vh;
     width: 100%;
@@ -212,7 +207,7 @@ padding-top: 7em;
     margin-left: -5px;
 }
 
-/*----------Contact Page---------*/
+/*-------------------------------Contact Page-------------------*/
 #contact{
     background: url("../images/village.jpg");
 }
@@ -267,14 +262,11 @@ margin-right: 5px;
     height: 70vh;
     width: 100%;
     padding-left: 0;
-    /* display: flex; */
-    /* align-items: center;
-    justify-content: center; */
+
 }
 label{
     display: flex;
 }
-
 
 
 .form-row{
@@ -375,16 +367,4 @@ padding-top: 15px;
   }
 }
 /*Code taken from youtube video of True Coder (https://www.youtube.com/watch?v=rpujWVkmiPE) and modified as per project requirement --END-- */
-/* @media screen and (min-width: 992px){
-    .btn{
-        display: block;
-        
-    }
-} */
-
-/* @media screen and (max-width: 576px) {
-  .navbar-light .navbar-nav .nav-link {
-    font-size: 14px;
-  }
-} */
 

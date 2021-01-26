@@ -50,4 +50,4 @@ ressolved an issue.
   - Issue happen due to [incorrect filepath](assets/bugs/issue-filepath) of image, Once i updated the filepath correctly it fixed an issue.
 
 ## Credits
-- Thanks to True Coder for [youtube video](https://www.youtube.com/watch?v=rpujWVkmiPE) on Contact form, this video inspire me to create the unique form contact rather than just normal form, I have also taken some concept and also took some code while styling my contact form.
+- Thanks to True Coder for [youtube video](https://www.youtube.com/watch?v=rpujWVkmiPE) on Contact form, this video inspire me to create the unique contact form rather than just normal form, I have also taken some concept and also took some code while styling my contact form.
