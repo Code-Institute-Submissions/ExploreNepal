@@ -189,13 +189,18 @@ padding-bottom: 10%;
 
 
 .heading-place{
+   font-size: 1.25em;
     padding-right: 15px;
     padding-left: 15px;
-    margin: 0 auto; 
     text-align: start;
+    margin-top: 50px;
 }
 
  .circle{
+     background: url("../images/ilam.jpg");
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
    height: 350px;
    width: 350px;
    border-radius: 100%;
