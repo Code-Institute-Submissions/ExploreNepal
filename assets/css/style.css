@@ -211,6 +211,11 @@ padding-bottom: 10%;
     margin-bottom: 100px;
 } 
 
+/*--------------Google Map----*/
+#map{
+    height: auto;
+    width: 100%;
+}
 /*-START--Purpose of this code is to only make circle responsive (code taken from youtube video of zFunx Web Developement Ideas(https://www.youtube.com/watch?v=R7OcJyL_rbw)and modified as per project requirement--START--*/
 .circle:after{
     content: "";
