@@ -1,0 +1,55 @@
+    [{
+        "id": "place1",
+        "name": "Butwal",
+        "description": "Butwal officially Butwal Sub-Metropolitan is one of the twin cities of rapidly growing Butwal-Bhairahawa urban agglomeration in Nepal. It lies in Lumbini Province",
+        "geocordinates": {
+            "latitude": "27.70055",
+            "longitude": "83.44836"
+        },
+        "imageurl": "assets/images/lumbini.jpg"
+    },
+
+    {
+        "id": "place2",
+        "name": "Kathmandu",
+        "description": "Kathmandu is the capital and largest municipality of Nepal. It also hosts the headquarters of the South Asian Association for Regional Cooperation (SAARC). It is the only city of Nepal with the administrative status of Mahanagar (Metropolitan City), as compared to Upa-Mahanagar (Sub-Metropolitan City) or Nagar (City). Kathmandu is the core of Nepal's largest urban agglomeration located in the Kathmandu Valley consisting of Lalitpur, Kirtipur, Madhyapur Thimi, Bhaktapur and a number of smaller communities. Kathmandu is also known informally as KTM",
+        "geocordinates": {
+            "latitude": "27.70169",
+            "longitude": "85.3206"
+        },
+           "imageurl": "assets/images/patan.jpg"
+    },
+
+    {
+        "id": "place3",
+        "name": "Lumbini",
+        "description": "Lumbini has a number of older temples, including the Mayadevi Temple, and various new temples, funded by Buddhist organisations from various countries, have been completed or are still under construction. Many monuments, monasteries and a museum, and the Lumbini International Research Institute are also within the holy site. Also, there is the Puskarini, or Holy Pond, where the Buddha's mother took the ritual dip prior to his birth and where he had his first bath. At other sites near Lumbini, earlier Buddhas were, according to tradition, born, then achieved ultimate Enlightenment and finally relinquished their earthly forms.",
+        "geocordinates": {
+            "latitude": "27.6792",
+            "longitude": "83.5070"
+        },
+           "imageurl": "assets/images/lumbini.jpg"
+    },
+
+{
+        "id": "place4",
+        "name": "Pokhara",
+        "description": "Pokhara is considered the tourism capital of Nepal,[6] being a base for trekkers undertaking the Annapurna Circuit through the Annapurna Conservation Area region[7] of the Annapurna ranges in the Himalayas. The city is also home to many of the elite Gurkha soldiers",
+        "geocordinates": {
+            "latitude": "28.2096",
+            "longitude": "83.9856"
+        },
+           "imageurl": "assets/images/river.jpg"
+    },
+
+    {
+        "id": "place5",
+        "name": "Ilam",
+        "description": "The name Ilam is derived from the limbu language in which IL means twisted and Lam means road. Ilam was one of the ten self ruling states of Limbuwan before the reunification of Nepal. Its ruler King Hangshu Phuba Lingdom of Lingdom dynasty ruled Ilam as a confederate state of Limbuwan until 1813 AD. The treaty between the other Limbuwan states and the King of Gorkha (Gorkha-Limbuwan Treaty of 1774 AD) and the conflict of Gorkha and Sikkim led to the unification of Ilam with Gorkha. Ilam was the last of the ten kingdoms of Limbuwan to be reunified into Nepal. The King of Gorkha gave the ruler of Ilam full autonomy to rule and the right of Kipat. Ilam was an independent Limbu kingdom until 1813 CE/1869 BS.",
+        "geocordinates": {
+            "latitude": "26.9112",
+            "longitude": "87.9237"
+        },
+           "imageurl": "assets/images/ilam.jpg"
+    }
+]
