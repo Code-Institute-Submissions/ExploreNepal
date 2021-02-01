@@ -1,5 +1,4 @@
 
-// Concept of sendMail function was taken form LSM video of Code Institute.
 function sendMail(contactForm){
     emailjs.send("gmail", "template_c1k39bh", {
         "from_fname": contactForm.firstname.value,
