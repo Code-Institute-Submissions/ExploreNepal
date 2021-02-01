@@ -15,6 +15,14 @@ $(document).ready(function () {
         $('#locations').append(placeButtons);
     });
 
+     $('#locations').on('click', 'li', function () {
+            var location = locationData.find(place1 => place1.id === this.id);
+            console.log(location);
+            $('#description').text(location.description);
+            $('.circle').css('background', 'url("' + location.imageurl + '")');
+            initMap(location.geocordinates.latitude, location.geocordinates.longitude);
+        });
+
     function initMap(lat, long) {
         let myLatLng = { lat:  parseFloat(lat), lng: parseFloat(long) };
         let map = new google.maps.Map(document.getElementById("map"), {
