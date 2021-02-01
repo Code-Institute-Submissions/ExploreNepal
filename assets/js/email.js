@@ -9,8 +9,9 @@ function sendMail(contactForm){
     .then(
        function(response){
            console.log("SUCCESS", response);
+            contactForm.reset();
        },
-       function(error){ 
+       function(error){ git 
            console.log("FAILED", error);
        });
        return false;
