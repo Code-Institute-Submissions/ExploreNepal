@@ -28,6 +28,13 @@ body{
     height: auto;
 }
 
+
+/* #expo,
+#info,
+#contact{
+    margin-top: 2%;
+} */
+
 .main-container{
     padding-right: 0;
     padding-left: 0;
@@ -35,7 +42,7 @@ body{
 
 /*----------------Navbar------------------------*/
 .bg-light {
-  background-color: #36627d !important;
+  background-color: #254c54 !important;
   z-index: 2;
   width: 100vw;
 }
@@ -80,7 +87,7 @@ body{
     height: 105vh;
     width: 100vw;
     position: absolute;
-    background: #225470;
+    background: #184d47;
     z-index: 1;
     opacity: 0.85;
 }
@@ -107,10 +114,7 @@ body{
 }
 /*------------------Information Page------------------*/
 #info{
-    background: url("../images/lake2.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background: #96bb7c;
 }
 
 .wrapper-text{
@@ -135,27 +139,27 @@ padding-top: 2%;
     }
 
 .col-text1{
-    background: #d4bfaf;
+    background: #ffd56b;
 }
 
 .col-text2{
-    background: rgb(126, 207, 116);
+    background: #ffcda3;
 }
 
 .col-text3{
-    background: rgb(173, 55, 81);
+    background:rgb(53 162 179 / 65%);
 }
 
 .col-text4{
-    background: rgb(170 173 191 / 78%);
+    background:#cae4db;
 }
 
 .col-text5{
-    background: rgba(200, 92, 243, 0.781);
+    background: #dc3545d1;
 }
 
 .col-text6{
-    background: rgba(197, 218, 78, 0.781);
+    background: #7c9473;
 }
 
 .heading-carousel{
@@ -172,7 +176,7 @@ padding-top: 2%;
 #expo{
     padding-left: 0;
     padding-right: 0;
-   background-color: #ed6663;
+   background-color: #d6efc7;
 }
 
 .wrapper-expo{
@@ -197,13 +201,13 @@ padding-bottom: 10%;
 }
 
  .circle{
-     background: url("../images/ilam.jpg");
-     background-size: cover;
-     background-position: center;
-     background-repeat: no-repeat;
-   height: 350px;
-   width: 350px;
-   border-radius: 100%;
+    background: url("../images/ilam.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 350px;
+    border-radius: 100%;
     border: 15px solid rgb(175, 13, 13);
     padding-left: 0;
     padding-right: 0;
@@ -229,13 +233,8 @@ padding-bottom: 10%;
     font-weight: 600;
     margin-bottom: 15px;
     margin-right: 15px;
-
-    /* margin: 10px;
-    cursor: pointer; 
-    text-align: center;
-    padding-top: 0.85em;
-    display: flex;
-    float: right; */
+    background: url("../images/greenlake.jpg");
+    
 }
 
 .button-places{
@@ -259,8 +258,8 @@ padding-bottom: 10%;
     position: relative;
     width: 100%;
     padding-left: 0;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .form-row{
