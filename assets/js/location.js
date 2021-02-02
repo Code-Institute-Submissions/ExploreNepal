@@ -1,4 +1,4 @@
-class Locations {
+class Location{
     constructor(location) {
         this.data = location || [];
     }
@@ -7,20 +7,23 @@ class Locations {
 $(document).ready(function () {
 
     $.getJSON("assets/js/location.json", function (result) {
-        const locations = new Locations(result);
+        const locations = new Location(result);
 
         const [defaultPlace] = locations.data;
         initializeMapWithDefaultPlace(initMap, defaultPlace);
         setPlaceLocationCard(defaultPlace);
         appendPlacesOfSelectedLocation(locations.data);
 
-        $('#locations').on('click', 'li', function () {
-        const locations = new Location(result);
-        const matchedLocation = locations.data.find(place1 => place1.id === this.id);
 
-        setPlaceLocationCard(matchedLocation);
-        initializeMapWithDefaultPlace(initMap, matchedLocation);
-    });
+
+        $('#locations').on('click', 'li', function () {
+            const locations = new Location(result);
+            const matchedLocation = locations.data.find(place1 => place1.id === this.id);
+
+            setPlaceLocationCard(matchedLocation);
+            initializeMapWithDefaultPlace(initMap, matchedLocation);
+
+        });
     });
 
     function initMap(lat, long) {
