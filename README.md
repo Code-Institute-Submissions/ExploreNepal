@@ -34,7 +34,7 @@ trigger the interests of all the users who access this website.
 - Issue with Navbar as Navbar did not overlay correctly on top of video on Home page which resulted Navbar appear seperately on top of the page and [video display only below Navbar](assets/bugs/issue-navbar.jpg).
   - I have fixed this issue by utilizing the devtool : bg-dark class that was added to nav replaced  by bg-light class then set background color of bg-light class to #24537005 which
 ressolved an issue.
-- [Background video on the home page did not cover entire screen](assets/bugs/padding-issue.jpg) eventhough container-fluid class was used, instead left with some white space on both left and right hand side of the screen which was not desired outcome.
+- [Background video on the home page did not cover entire screen](assets/bugs/issue-padding.jpg) eventhough container-fluid class was used, instead left with some white space on both left and right hand side of the screen which was not desired outcome.
   - Issue was fixed by adding some extra css property to main container class: value of 0 set to both padding right and padding left to main-container class and this solved issue.
 - Padding issue between the columns inside the row : while using col-md-2 classes to created two columns inide the row there was a [excess white space between those columns](assets/bugs/issue-padding.jpg) however no space between colums was desired outcome.
   - I have used bootstrap documentation to find the solution of this : I added no-gutters class to the row which hold those columns and this solve an issue.  
@@ -54,7 +54,12 @@ ressolved an issue.
   - Console on devtool displayed an error message and I immediately decided to check my codes on [JShint](https://jshint.com/) however couldnt find any error and as a final attempt before I approach Tutor support I decided to recheck all the semicolons and curly braces and  spotted that one of the [closing curly brace and closing parenthesis was used way before](assets/bugs/issues-curlybrace.jpg) then it should be and this was ressolved once I corrected this.
 - Contact form on my page was not functioning as I was not getting any message on my email after submitting the form from the page which was linked to emailjs and assigned to sendMail function.
   - I was getting 501 error on my browser after submitting the form and also an error code on console stating that emailjs is not defined but I couldnt spot any issue and neither any issue with function nor codes and I gave up on this and move to another section, I rechecked this issue next day and figure out that I somehow [script tag for emailjs was deleted from index.html page](assets/bugs/issue-emailjs.jpg) and this was resulting and issue which sorted once I use emailjs script tag from emailjs documentetion.
-  
+
 ## Credits
 - Thanks to True Coder for [youtube video](https://www.youtube.com/watch?v=rpujWVkmiPE) on Contact form, this video inspire me to create the unique contact form rather than just normal form, I have also taken some concept and also took some code while styling my contact form.
 - Thanks to zFunx Web Developement for [youtube video](https://www.youtube.com/watch?v=R7OcJyL_rbw) on Responsive Circle using CSS, I have taken some code from this video and modified as per my requirement.
+- Thanks to The Coding Train for [youtube video](https://www.youtube.com/watch?v=_NFkzw6oFtQ&t=318s) on What is JSON, this video was really helpful to understand JSON an gave me an idea and inspire me to create JSON file to store data on my project.
+- Thanks to Coding Journey for [youtube video](https://www.youtube.com/watch?v=gphMli74Chk&t=1056s) on Back to Top Button, I took the concept from video to add scroll to top option with arrow on my page.
+- I have read some part of the book, named "A Smarter Way to Learn Javascript" which was written by "Mark Myers", this book also help me to understand many concepts and logic on function and object so many thanks to author of this book.
+- I have accessed [W3School page](https://www.w3schools.com/js/default.asp) throughout the build process which was really helpful and informative.
+- I have spent some time on [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions) page to gain more knowledge on function and this page was very helpful to understand function in simple way.

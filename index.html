@@ -11,8 +11,7 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Explore Nepal</title>
 </head>
-
-<body>
+<body onload="initMap()">
     <div id="scrollToTop" onclick="scrollEffect();"><i class="far fa-arrow-alt-circle-up"></i></div>
     <div class="container-fluid main-container">
         <!---Navbar Section (Bootstrap Library used to create responsive Navbar---------->
@@ -356,9 +355,9 @@
      <!-- <script src="assets/js/script.js"></script>  -->
      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <script async defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxbPeRLGmhKEoZoW8GU-E9Ck0myQreON4&callback=initMap&libraries=&v=weekly">
-    </script>
+    <script defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxbPeRLGmhKEoZoW8GU-E9Ck0myQreON4&libraries=&v=weekly">
+</script>
      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
      <script src="assets/js/email.js"></script>
      <script type="text/javascript">
@@ -372,3 +371,7 @@
 </body>
 
 </html>
+
+<!-- <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxbPeRLGmhKEoZoW8GU-E9Ck0myQreON4&callback=initMap&libraries=&v=weekly">
+    </script> -->
