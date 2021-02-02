@@ -10,7 +10,6 @@ function scrollEffect(){
     }
 }
 
-
 scrollToTopButton.addEventListener("click", scrollToTop);
 function scrollToTop(){
     window.scrollToTop (0, 0);
