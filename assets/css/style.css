@@ -250,22 +250,21 @@ height: 60vh;
 .wrapper-expo{
     text-align: start;
     margin-left: 4%;
-     margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 
 .container-expo{
-padding-top: 2em;
-padding-bottom: 10%;
+   padding-top: 2em;
+   padding-bottom: 10%;
 }
 
 
 .heading-place{
    font-size: 1.25em;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 35px;
     text-align: start;
-    margin-top: 50px;
+    padding-bottom: 30px;
 }
 
  .circle{
@@ -292,9 +291,17 @@ padding-bottom: 10%;
 }
 /*--END--code taken from youtube video of zFunx Web Developement Ideas(https://www.youtube.com/watch?v=R7OcJyL_rbw) and modified as per project requirement--*/
 
+/* .button-row{
+    justify-content: space-evenly;
+}
+
+.button-col{
+align-items: center;
+} */
+
 .btn{
    height: 40px;
-    width: 180px;
+    width: 160px;
     border: none;
     color: #001305;
     font-size: 0.8rem;
@@ -310,12 +317,11 @@ padding-bottom: 10%;
 }
 /*--------------Google Map----*/
 #map{
-    height: 600px;
-    width: 100%;
-    border: 2px solid white;
-    margin-top: -175px;
-    padding-left: 0;
-    padding-right: 0;
+    min-height: 50vh;
+    height: 100%;
+    width: auto;
+    border: 2px solid rgb(238, 138, 7);
+    margin-right: 15px;
 }
 
 /*-------------------------------Contact Page-------------------*/
@@ -472,9 +478,24 @@ padding-top: 15px;
 }
 }
 
-@media screen and (max-width: 992px){
+@media (min-width: 992px) and (max-width: 1200px){
+.heading-place{
+    padding-left: 45px;
+}
+}
+
+@media screen and (max-width: 991px){
     .navbar-nav{
         margin-top: -55px;
+    }
+
+    .heading-place{
+         margin-top: -80px;
+    }
+
+    .form-row{
+        padding-right: 35px;
+        padding-left: 20px;
     }
 }
 
@@ -485,9 +506,8 @@ padding-top: 15px;
     left: initial;
     right: 70px;
   }
+  /*Code taken from youtube video of True Coder (https://www.youtube.com/watch?v=rpujWVkmiPE) and modified as per project requirement --END-- */
   .carouselImageSlider{
 height: 50vh;
 }
 }
-/*Code taken from youtube video of True Coder (https://www.youtube.com/watch?v=rpujWVkmiPE) and modified as per project requirement --END-- */
-
