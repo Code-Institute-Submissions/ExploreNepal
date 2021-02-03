@@ -234,7 +234,7 @@ padding-top: 2%;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-height: 50vh;
+height: 60vh;
 }
 
 /*--------------------------Explore page-----------------------*/
@@ -466,12 +466,15 @@ padding-top: 15px;
 }
 
 /*Code taken from youtube video of True Coder (https://www.youtube.com/watch?v=rpujWVkmiPE) and modified as per project requirement --START-- */
-@media screen and (max-width: 767px){
+@media screen and (max-width: 768px){
     .contact-form:before {
     top: -13px;
     left: initial;
     right: 70px;
   }
+  .carouselImageSlider{
+height: 50vh;
+}
 }
 /*Code taken from youtube video of True Coder (https://www.youtube.com/watch?v=rpujWVkmiPE) and modified as per project requirement --END-- */
 
