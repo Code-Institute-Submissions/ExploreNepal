@@ -65,3 +65,4 @@ ressolved an issue.
 - I have read some part of the book, named "A Smarter Way to Learn Javascript" which was written by "Mark Myers", this book also help me to understand many concepts and logic on function and object so many thanks to author of this book.
 - I have accessed [W3School page](https://www.w3schools.com/js/default.asp) throughout the build process which was really helpful and informative.
 - I have spent some time on [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions) page to gain more knowledge on function and this page was very helpful to understand function in simple way.
+- Thanks to Traversy media for [youtube video](https://www.youtube.com/watch?v=Xy3GlrddZFI) on Fullscreen Video Background With HTML & CSS, I took the concept of having full screen video on my landing page from this video.
