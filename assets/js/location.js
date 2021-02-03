@@ -26,23 +26,23 @@ $(document).ready(function () {
         });
     });
 
-    function initMap(lat, long) {
+    // function initMap(lat, long) {
 
-        let myLatLng = {
-            lat: parseFloat(lat),
-            lng: parseFloat(long)
-        };
+    //     let myLatLng = {
+    //         lat: parseFloat(lat),
+    //         lng: parseFloat(long)
+    //     };
 
-        let map = new google.maps.Map(document.getElementById("map"), {
-            zoom: 11,
-            center: myLatLng,
-        });
+    //     let map = new google.maps.Map(document.getElementById("map"), {
+    //         zoom: 11,
+    //         center: myLatLng,
+    //     });
 
-        new google.maps.Marker({
-            position: myLatLng,
-            map,
-        });
-    }
+    //     new google.maps.Marker({
+    //         position: myLatLng,
+    //         map,
+    //     });
+    // }
 
 });
 
@@ -66,7 +66,23 @@ function appendPlacesOfSelectedLocation(locations) {
 
 
 
+ function initMap(lat, lng) {
 
+        let myLatLng = {
+            lat: parseFloat(lat),
+            lng: parseFloat(lng)
+        };
+
+        let map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 11,
+            center: myLatLng,
+        });
+
+        new google.maps.Marker({
+            position: myLatLng,
+            map,
+        });
+    }
 
 
 

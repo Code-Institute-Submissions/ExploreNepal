@@ -3,8 +3,8 @@
         "name": "Butwal",
         "description": "Butwal officially Butwal Sub-Metropolitan is one of the twin cities of rapidly growing Butwal-Bhairahawa urban agglomeration in Nepal. It lies in Lumbini Province",
         "geocordinates": {
-            "latitude": "27.70055",
-            "longitude": "83.44836"
+            "latitude": "27.6866",
+            "longitude": "83.4323"
         },
         "imageurl": "assets/images/lumbini.jpg"
     },
@@ -14,8 +14,8 @@
         "name": "Kathmandu",
         "description": "Kathmandu is the capital and largest municipality of Nepal. It also hosts the headquarters of the South Asian Association for Regional Cooperation (SAARC). It is the only city of Nepal with the administrative status of Mahanagar (Metropolitan City), as compared to Upa-Mahanagar (Sub-Metropolitan City) or Nagar (City). Kathmandu is the core of Nepal's largest urban agglomeration located in the Kathmandu Valley consisting of Lalitpur, Kirtipur, Madhyapur Thimi, Bhaktapur and a number of smaller communities. Kathmandu is also known informally as KTM",
         "geocordinates": {
-            "latitude": "27.70169",
-            "longitude": "85.3206"
+            "latitude": "27.7172",
+            "longitude": "85.3240"
         },
            "imageurl": "assets/images/patan.jpg"
     },

@@ -65,12 +65,28 @@ body{
     color: #00050a;
     font-size: 1.5em;
     margin-left: 0.75em;
+
+    /* position: fixed;
+    right: 0;
+    height: 50vh;
+    width: 50%;
+    margin-right: 0;
+    top: 6.5vh;
+    background-color: #254c54;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    transform: translateX(100%);
+    z-index: 1;
+    transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in; */
 }
 
 .navbar-light .navbar-nav .active .nav-link {
   color: #000000;
 }
-
 
 #logo{
     height: 40px;
@@ -189,6 +205,38 @@ padding-top: 2%;
     padding-left: 5%;
     padding-top: 3%;
 }
+
+.carouselImage1{
+    background: url("../images/lumbini.jpg");
+}
+
+.carouselImage2{
+    background: url("../images/gurkhas.jpg");
+}
+
+.carouselImage3{
+    background: url("../images/himalaya.jpg");
+}
+
+.carouselImage4{
+    background: url("../images/patan.jpg");
+}
+
+.carouselImage5{
+    background: url("../images/river.jpg");
+}
+
+.carouselImage6{
+    background: url("../images/bird.jpg");
+}
+
+.carouselImageSlider{
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 50vh;
+}
+
 /*--------------------------Explore page-----------------------*/
 #expo{
     padding-left: 0;
