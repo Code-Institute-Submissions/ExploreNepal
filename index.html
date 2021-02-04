@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ovo&display=swap" rel="stylesheet">
+    <link href="css/hover.css" rel="stylesheet" media="all">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script> -->
     <title>Explore Nepal</title>
@@ -25,24 +26,24 @@
             <div class="collapse navbar-collapse" id="navbarMenuContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link hvr-wobble-bottom" href="#home">Home<span class="sr-only">(current)</span>
+                        <a class="nav-link" href="#home">Home<span class="sr-only">(current)</span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link hvr-wobble-bottom" href="#info">Information</a>
+                        <a class="nav-link" href="#info">Information</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link hvr-wobble-bottom" href="#expo">Explore</a>
+                        <a class="nav-link" href="#expo">Explore</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link hvr-wobble-bottom" href="#contact">Contact Us</a>
+                        <a class="nav-link" href="#contact">Contact Us</a>
                     </li>
                 </ul>
             </div>
         </nav>
     </header>
     <!------------------Landing Page--------->
-    <!-- <div id="scrollToTop" onclick="scrollEffect();"><i class="far fa-arrow-alt-circle-up"></i></div> -->
+    <div id="scrollToTop"><i class="far fa-arrow-alt-circle-up"></i></div>    <!---onclick="scrollTop();"-->
     <section id="home">
         <div class="wrapper">
             <div class="video-wrap">
@@ -240,21 +241,18 @@
     <section id="expo">
         <div class="container-fluid container-expo">
             <div class="row">
-                <div class="col-lg-8">
-                    <!-- <div class="wrapper-text wrapper-expo"> -->
+                <div class="col-lg-7">
                         <h1 class="heading heading-expo">Lorem ipsum dolor sit amet consectetur
                             quibusdam!</h1>
-                    <!-- </div> -->
                     <div class="row button-row">
                         <div class="col text-center button-col">
-                            <!-- <div class="wrapper-button"> -->
+                           
                             <ul class="button-places" id="locations">
                             </ul>
                             </div>
                         </div>
-                    <!-- </div> -->
-                    <div class="row ">
-                        <div class="col-lg-6">
+                    <div class="row no-gutters">
+                        <div class="col-lg-6 d-flex justify-content-center">
                             <div class="circle"></div>
                         </div>
                         <div class="col-lg-6">
@@ -262,7 +260,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-5">
                     <div id="map">Google Map Here</div>
                 </div>
             </div>

@@ -25,25 +25,6 @@ $(document).ready(function () {
 
         });
     });
-
-    // function initMap(lat, long) {
-
-    //     let myLatLng = {
-    //         lat: parseFloat(lat),
-    //         lng: parseFloat(long)
-    //     };
-
-    //     let map = new google.maps.Map(document.getElementById("map"), {
-    //         zoom: 11,
-    //         center: myLatLng,
-    //     });
-
-    //     new google.maps.Marker({
-    //         position: myLatLng,
-    //         map,
-    //     });
-    // }
-
 });
 
 

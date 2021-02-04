@@ -1,24 +1,24 @@
- $(document).on('click', function () {
-            $('.collapse').collapse('hide');
+
+// Navbar collapse function
+
+$(document).on('click', function () {
+            $('.navbar-collapse').collapse('hide');
         })
 
+// ScrollTop behaviour
 
-
-// let scrollToTopButton = document.querySelector("#scrollToTop");
-// window.addEventListener("scroll", scrollEffect);
-
-// function scrollEffect(){
-//     if(window.pageYOffset > 100){
-//         scrollToTopButton.style.display = "block";
-//     }
-//     else{
-//         scrollToTopButton.style.display ="none";
-//     }
-// }
-
-// scrollToTopButton.addEventListener("click", scrollToTop);
-// function scrollToTop(){
-//     window.scrollToTop (0, 0);
-// }
-
-       
+$(window).scroll(function() {
+    var displayHeight = $(window).scrollTop();
+    if (displayHeight > 90) {
+        $('#scrollToTop').fadeIn();
+    } else {
+        $('#scrollToTop').fadeOut(2000);
+    }
+});
+$(document).ready(function() {
+    $("#scrollToTop").click(function(event) {
+        event.preventDefault();
+        $("html, body").animate({ scrollTop: 0 }, "slow");    // This line of code taken from stackOverflow
+        return false;
+    });
+});
