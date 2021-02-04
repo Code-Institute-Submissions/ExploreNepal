@@ -1,3 +1,9 @@
+ $(document).on('click', function () {
+            $('.collapse').collapse('hide');
+        })
+
+
+
 // let scrollToTopButton = document.querySelector("#scrollToTop");
 // window.addEventListener("scroll", scrollEffect);
 
@@ -14,3 +20,5 @@
 // function scrollToTop(){
 //     window.scrollToTop (0, 0);
 // }
+
+       
