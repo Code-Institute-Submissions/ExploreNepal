@@ -15,7 +15,7 @@ body{
     overflow-x: hidden;    
 }
 /*---------------Specials---------------*/
-#scrollToTop{
+/* #scrollToTop{
     position: fixed;
     bottom: 20px;
     right: 5px;
@@ -28,7 +28,7 @@ body{
     z-index: 1;
     display: none;
    
-}
+} */
 
 .heading{
     font-family: "Yusei Magic", sans-serif;
@@ -87,6 +87,11 @@ body{
 .navbar-light .navbar-nav .active .nav-link {
   color: #000000;
 }
+
+/* .navbar .navbar-toggler {
+  position: relative;
+  z-index: 10000;
+} */
 
 #logo{
     height: 40px;
@@ -242,15 +247,25 @@ height: 60vh;
 
 /*--------------------------Explore page-----------------------*/
 #expo{
-    padding-left: 0;
-    padding-right: 0;
-   background-color: #254c54d4;
+ padding-left: 0;
+ padding-right: 0;
+ background-color: #254c54d4;
 }
 
-.wrapper-expo{
+/* .wrapper-expo{
     text-align: start;
     margin-left: 4%;
     margin-bottom: 0;
+    padding-top: 5%;
+    padding-bottom: 5%;
+} */
+
+.heading-expo{
+    text-align: start;
+    margin-left: 4%;
+    /* margin-bottom: 0; */
+    padding-top: 5%;
+    padding-bottom: 2%;
 }
 
 
@@ -263,8 +278,11 @@ height: 60vh;
 .heading-place{
    font-size: 1.25em;
     padding-right: 35px;
-    text-align: start;
+    text-align: inherit;
     padding-bottom: 30px;
+    padding-right: 5%;
+    padding-left: 5%;
+
 }
 
  .circle{
@@ -272,21 +290,21 @@ height: 60vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 350px;
-    width: 350px;
-    border-radius: 100%;
-    border: 15px solid rgb(175, 13, 13);
+    /* height: 350px; */
+    width: 60%;
+    border-radius: 50%;
+    border: 5px solid rgb(175, 13, 13);
     padding-left: 0;
     padding-right: 0;
     margin: 0 auto;
-    margin-bottom: 100px;
+    margin-bottom: 10%;
 } 
 
 
 /*-START--Purpose of this code is to only make circle responsive (code taken from youtube video of zFunx Web Developement Ideas(https://www.youtube.com/watch?v=R7OcJyL_rbw)and modified as per project requirement--START--*/
 .circle:after{
     content: "";
-    padding-bottom: 50%;
+    padding-bottom: 100%;
     display: block;
 }
 /*--END--code taken from youtube video of zFunx Web Developement Ideas(https://www.youtube.com/watch?v=R7OcJyL_rbw) and modified as per project requirement--*/
@@ -299,13 +317,14 @@ height: 60vh;
 align-items: center;
 } */
 
-.buttons{
+/* .buttons{
     align-items: center;
-}
+} */
 
 .btn{
    height: 40px;
-    width: 140px;
+   /* width: 140px; */
+   width: 10em;
     border: none;
     color: #001305;
     font-size: 0.8rem;
@@ -323,9 +342,9 @@ align-items: center;
 #map{
     min-height: 50vh;
     height: 100%;
-    width: auto;
+    /* width: 100%; */
     border: 2px solid rgb(238, 138, 7);
-    margin-right: 15px;
+
 }
 
 /*-------------------------------Contact Page-------------------*/
@@ -470,7 +489,13 @@ padding-top: 15px;
     margin-bottom: 3px;
 }
 
-/*------------------Media Queries--------*/
+/*---------------------------------------Media Queries-----------------------*/
+
+@media screen and (min-width: 1700px){
+    .circle{
+        margin-left: 40%;
+    }
+}
 
 @media screen and (min-width: 1200px){
     .heading-info{
@@ -486,25 +511,43 @@ padding-top: 15px;
 .heading-place{
     padding-left: 45px;
 }
+.circle{
+    width: 100%;
+}
 }
 
-@media screen and (max-width: 991px){
+@media screen and (max-width: 992px){
     .navbar-nav{
         margin-top: -55px;
     }
 
-    .heading-place{
+    /* .heading-place{
          margin-top: -80px;
-    }
+    } */
 
     .form-row{
         padding-right: 35px;
         padding-left: 20px;
     }
+
+    .heading-expo{
+        padding-left: 8%;
+        padding-right: 5%;
+    }
+
+    .circle{
+    width: 40%;
+}
 }
 
-/*Code taken from youtube video of True Coder (https://www.youtube.com/watch?v=rpujWVkmiPE) and modified as per project requirement --START-- */
+@media (min-width: 768px) and (max-width: 992px){
+.heading-place{
+    margin-top: -5%;
+}
+}
+
 @media screen and (max-width: 768px){
+/*Code taken from youtube video of True Coder (https://www.youtube.com/watch?v=rpujWVkmiPE) and modified as per project requirement --START-- */
     .contact-form:before {
     top: -13px;
     left: initial;
@@ -514,10 +557,26 @@ padding-top: 15px;
   .carouselImageSlider{
 height: 50vh;
 }
+.heading-place{
+    margin-top: -5%;
+}
 }
 
-@media screen and (max-width: 351px){
+@media screen and (max-width: 576px){
+    .circle{
+    width: 60%;
+}
+}
+
+
+
+
+@media screen and (max-width: 420px){
     .btn{
         width: 40%;
     }
+
+    /* .heading-place{
+    padding-top: 20%;
+} */
 }
