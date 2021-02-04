@@ -255,8 +255,8 @@ height: 60vh;
 
 
 .container-expo{
-   padding-top: 2em;
-   padding-bottom: 10%;
+   padding-right: 0;
+   padding-left: 0;
 }
 
 
@@ -299,9 +299,13 @@ height: 60vh;
 align-items: center;
 } */
 
+.buttons{
+    align-items: center;
+}
+
 .btn{
    height: 40px;
-    width: 160px;
+    width: 140px;
     border: none;
     color: #001305;
     font-size: 0.8rem;
@@ -510,4 +514,10 @@ padding-top: 15px;
   .carouselImageSlider{
 height: 50vh;
 }
+}
+
+@media screen and (max-width: 351px){
+    .btn{
+        width: 40%;
+    }
 }
