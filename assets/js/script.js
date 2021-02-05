@@ -9,7 +9,7 @@ $(document).on('click', function () {
 
 $(window).scroll(function() {
     var displayHeight = $(window).scrollTop();
-    if (displayHeight > 90) {
+    if (displayHeight > 100) {
         $('#scrollToTop').fadeIn();
     } else {
         $('#scrollToTop').fadeOut(2000);
