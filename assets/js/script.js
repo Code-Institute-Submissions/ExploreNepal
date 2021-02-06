@@ -3,8 +3,12 @@
 
 $(document).on('click', function () {
             $('.navbar-collapse').collapse('hide');
-        })
+        });
 
+
+// $('.navbar-nav>li>a').on('click', function(){
+//     $('.navbar-collapse').collapse('hide');
+// });
 // ScrollTop behaviour
 
 $(window).scroll(function() {
@@ -18,7 +22,7 @@ $(window).scroll(function() {
 $(document).ready(function() {
     $("#scrollToTop").click(function(event) {
         event.preventDefault();
-        $("html, body").animate({ scrollTop: 0 }, "slow");    // This line of code taken from stackOverflow
+        $("html, body").animate({ scrollTop: 0 }, 'slow');    // This line of code taken from stackOverflow
         return false;
     });
 });

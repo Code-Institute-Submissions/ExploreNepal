@@ -6,7 +6,7 @@ class Location{
 
 $(document).ready(function () {
 
-    $.getJSON("assets/js/location.json", function (result) {
+    $.getJSON('assets/js/location.json', function (result) {
         const locations = new Location(result);
 
         const [defaultPlace] = locations.data;
@@ -54,7 +54,7 @@ function appendPlacesOfSelectedLocation(locations) {
             lng: parseFloat(lng)
         };
 
-        let map = new google.maps.Map(document.getElementById("map"), {
+        let map = new google.maps.Map(document.getElementById('map'), {
             zoom: 11,
             center: myLatLng,
         });
