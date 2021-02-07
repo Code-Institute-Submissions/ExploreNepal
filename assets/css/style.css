@@ -460,6 +460,26 @@
     .footer-text{
         margin-bottom: 3px;
     }
+    /*----------------------Modal--------------------*/
+    .modal-content {
+  background-color: #d5f2d5;
+}
+
+.modal-title {
+  font-size: 25px;
+}
+
+.form-control{
+    margin-top: 10%;
+}
+
+.small-modal {
+  background-color: #d5f2d5;
+}
+
+.modal-text {
+  color: #000000;
+}
 
     /*---------------------------------------Media Queries-----------------------*/
 

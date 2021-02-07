@@ -288,6 +288,12 @@
                             <span class="icon"><a href="https://www.whatsapp.com/" target="_blank"><i class="fas fa-phone-alt"></i></a></span>
                             <span class="heading-sub">+900 071 12345</span>
                         </div>
+                        <div class="signUp">
+                            <h1 class="heading heading-sub heading-signUp">Sign Up today to receive notification to your email every time when our page gets updated. </h1>
+                        <button type="button" class="btn btn-primary btn--signUp" data-toggle="modal" data-target="#signUpModal">
+                            Sign Up!
+                        </button>
+                        </div>
                         <div class="social-media-heading">
                             Our Social media pages get updated daily! <br>
                             Dont forget to visit!
@@ -362,6 +368,41 @@
             emailjs.init("user_o9rFNK3UzzuhmE5ArqBxs");
         })();
     </script>
+    <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+            <div class="modal-dialog">
+                <div class="modal-content small-modal">
+                    <div class="modal-header">
+                        <h1 class="modal-title">
+                            Sign Up!
+                        </h1>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group modal-text">
+                                <label for="fullname">Full Name</label>
+                                <input type="text" class="form-control" placeholder="Enter Your Full Name" id="fullname" required/>
+                                <small class="form-text text-muted">
+                                    We'll never share your personal details with anyone else.
+                                </small>
+                            </div>
+                            <div class="form-group modal-text heading">
+                                <label for="email">Email Address</label>
+                                <input type="email" class="form-control" placeholder="Enter Your Email" id="emailaddress" required name="emailaddress"/>
+                            </div>
+                            <button type="submit" class="btn btn-info btn--cta btn--dot">
+                                Submit
+                            </button>
+                            <h1 class="modal-sub heading-sub">
+                                Thank You for Signing Up!
+                            </h1>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
 </body>
 
 </html>
