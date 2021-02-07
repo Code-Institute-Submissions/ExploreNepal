@@ -1,15 +1,7 @@
 
-// Navbar collapse function
-
 $(document).on('click', function () {
             $('.navbar-collapse').collapse('hide');
         });
-
-
-// $('.navbar-nav>li>a').on('click', function(){
-//     $('.navbar-collapse').collapse('hide');
-// });
-// ScrollTop behaviour
 
 $(window).scroll(function() {
     var displayHeight = $(window).scrollTop();
