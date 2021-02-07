@@ -18,7 +18,7 @@ trigger the interests of all the users who access this website.
  - [Testing](#testing)
  - [Issues and Resolution](#issues-and-resolutions)
  - [Deployment](#deployment)
- - [Credit](#credit)
+ - [Credits](#credits)
  - [Aknowledgement](#aknowledgement)
 
 

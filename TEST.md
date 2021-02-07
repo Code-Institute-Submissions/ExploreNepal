@@ -50,7 +50,7 @@ All the menu items to access the sections tested and took the users to the corre
 - Message was received to the email associated with website once the form was submitted after completing the input field.
 
 
-## Other Tests
+# Other Tests
 
 ### HTML
 - Ran HTML code through [HTML Validator](https://validator.w3.org/)
@@ -67,7 +67,7 @@ All the menu items to access the sections tested and took the users to the corre
  - One errors which state that $ and google in undefined
  
  
-## Site Testing on Live page - Test carried on Desktop, Laptop, iPad, IPhone and Android phones.
+# Site Testing on Live page - Test carried on Desktop, Laptop, iPad, IPhone and Android phones.
 - Navbar testing - Display correctly and work to direct the correct section(s) across all devices
 - Background video of 'Home' section - Video did not play on iPhone 11 - issue not ressolved yet as could not find any possible way to fix this
 - Flag's waving animation - Flag on the center of landing page waving on all screen
