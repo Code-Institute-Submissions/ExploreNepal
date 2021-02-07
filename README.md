@@ -39,7 +39,6 @@ trigger the interests of all the users who access this website.
 
 * Mobile Wireframe - [View](assets/wireframes/wireframe-mobile-ms2.pdf)
 
-
 ### Features
  
 ##### Navigation Bar
@@ -71,6 +70,42 @@ trigger the interests of all the users who access this website.
 - An upward arrow is also added to the right corner of the page which set to be only be visible once user scroll below from the landing page, purpose of this arrow is to take the user to the top of the page directly upon clicking on this arrow therefore user do not require to scroll manually all the way to the top of the page to access the Navbar, arrow will fade away in 2000ms once user reach to the landing page everytime and fade in again once user reach to the next page either by scrolling or by selecting the options from Navbar.
 
 
+## Technologies Used
+
+### Languages Used
+
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+-   [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+
+### Frameworks, Libraries, Programs and Resources Used
+
+1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+    - Bootstrap was used to assist with the responsiveness and styling of the website.
+1. [Google Fonts:](https://fonts.google.com/)
+    - Google font was used to embed the YuseiMagic and Ovo types font which are used on all pages throughout the website.
+1. [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used to add icons for aesthetic and UX purposes.
+1. [jQuery:](https://jquery.com/)
+    - jQuery as Javascript Library and also to make the navbar responsive
+1. [Popper.js](https://popper.js.org/) 
+    - Popper.js was used for navbar and modal
+1. [Balsamiq:](https://balsamiq.com/)
+    - Balsamiq was used to create the wireframes during the design process.
+1. [Gitpod](https://www.gitpod.io/)
+    - Gitpod was used as IDE for local development.
+1. [GitHub:](https://github.com/)
+    - GitHub was used to store the projects code after being pushed from Gitpod.
+1. [Github Pages](https://pages.github.com/)
+    - Github pages were used for deployment of the website
+1. [HTML Formatter](https://htmlformatter.com/) 
+    - HTML formatter was used to format HTML code
+
+
+## Testing
+
+#### Testing documentation can be found on seperate file - [CLICK HERE TO VIEW ](TEST.md)
+
 ## Issues and Resolutions
 - Issue with Navbar as Navbar did not overlay correctly on top of video on Home page which resulted Navbar appear seperately on top of the page and [video display only below Navbar](assets/bugs/issue-navbar.jpg).
   - I have fixed this issue by utilizing the devtool : bg-dark class that was added to nav replaced  by bg-light class then set background color of bg-light class to #24537005 which
@@ -97,6 +132,7 @@ ressolved an issue.
   - I was getting 501 error on my browser after submitting the form and also an error code on console stating that emailjs is not defined but I couldnt spot any issue and neither any issue with function nor codes and I gave up on this and move to another section, I rechecked this issue next day and figure out that I somehow [script tag for emailjs was deleted from index.html page](assets/bugs/issue-emailjs.jpg) and this was resulting and issue which sorted once I use emailjs script tag from emailjs documentetion.
 - Image that was set inside the carousel did not cover the entire column height while testing on medium screen and instead [left some white space below the image](assets/bugs/issue-carousel2.jpg) which was not expected outcome.
   - Initially I loaded carousel images to my index.html file using img tag, once I noticed issue above then I used css background property to upload the images which solved issue but I have noticed another issue agian as image height seen too small, I have then added new class of carouselImageSlider to all columns which had images and set height on style.css which then solved entire issue.
+
 
 ## Credits
 - Thanks to True Coder for [youtube video](https://www.youtube.com/watch?v=rpujWVkmiPE) on Contact form, this video inspire me to create the unique contact form rather than just normal form, I have also taken some concept and also took some code while styling my contact form.
