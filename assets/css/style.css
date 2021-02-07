@@ -75,7 +75,7 @@
     }
 
     /*-----------Buttons-------------------*/
-.btn{
+    .btn{
         height: 3.5em;
         width: 10.5em;
         border: none;
@@ -100,16 +100,16 @@
         margin: 10px;
         cursor: pointer;
         text-align: center;
-    }
+     }
 
     .btn-modal{
     margin-bottom: 3%;
-}
+    }
 
 
-.btn-signUp{
+    .btn-signUp{
     width: 100px;
-}
+    }
     /*----------------Navbar------------------------*/
     .bg-light {
     background-color:  var(--blue) !important;
@@ -131,7 +131,7 @@
     color:  #ffffff;
     }
 
- .navbar-light .navbar-nav .active .nav-link:hover {
+   .navbar-light .navbar-nav .active .nav-link:hover {
     color: var(--red);
     }
 
@@ -279,11 +279,11 @@
         }
 
         .carouselImage5{
-            background: url("../images/river.jpg");
+            background: url("../images/food.jpg");
         }
 
         .carouselImage6{
-            background: url("../images/bird.jpg");
+            background: url("../images/yak.jpg");
         }
 
         .carouselImageSlider{
@@ -513,9 +513,6 @@
         margin-bottom: 3px;
     }
     /*----------------------Modal--------------------*/
-    /* .modal-content {
-  background-color: #d5f2d5;
-} */
 
 .modal-title {
   font-size: 25px;
@@ -593,14 +590,6 @@
     }
     }
 
-
-    @media (min-width: 768px) and (max-width: 992px){
-        /* .heading-place{
-            margin-top: -5%;
-        } */
-        
-    }
-
     @media screen and (max-width: 768px){
     /*Code taken from youtube video of True Coder (https://www.youtube.com/watch?v=rpujWVkmiPE) and modified as per project requirement --START-- */
         .contact-form:before {
@@ -612,10 +601,7 @@
         .carouselImageSlider{
         height: 50vh;
         }
-        /* .heading-place{
-            margin-top: -5%;
-        } */
-
+    
         .container-form{
             padding-left: 0;
             padding-right: 0;
