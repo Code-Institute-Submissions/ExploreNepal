@@ -9,6 +9,19 @@ With the specified purpose and aim in mind, I have decided to build this website
 the amazing yet interesting information about Nepal. This will hopefully attract more people or traveller to visit the beautiful Nepal once the pandemic is over as well as 
 trigger the interests of all the users who access this website.
 
+# Table of Contents
+
+ - [User Stories](#user-stories)
+ - [Wireframes](#wireframes)
+ - [Features](#features)
+ - [Technologies Used](#technologies-used)
+ - [Testing](#testing)
+ - [Issues and Resolution](#issues-and-resolutions)
+ - [Deployment](#deployment)
+ - [Credit](#credit)
+ - [Aknowledgement](#aknowledgement)
+
+
 ## User Stories
 
 ### First Time User Goals
