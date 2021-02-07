@@ -63,6 +63,42 @@
         padding-left: 0;
     }
 
+    /*-----------Buttons-------------------*/
+.btn{
+        height: 3.5em;
+        /* width: 140px; */
+        width: 10.5em;
+        border: none;
+        color: #001305;
+        font-size: 0.8rem;
+        font-weight: 600;
+        margin-bottom: 15px;
+        margin-right: 15px;
+         text-align: center;
+        background: url("../images/greenlake.jpg");
+    }
+
+    .btn-form{
+        height: 40px;
+        border-radius: 10%;
+        width: 80px;
+        border: 2px solid #d8e4d8;
+        color: #001305;
+        font-size: 0.8rem;
+        font-weight: 600;
+        margin: 10px;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    .btn-modal{
+    margin-bottom: 3%;
+}
+
+
+.btn-signUp{
+    width: 100px;
+}
     /*----------------Navbar------------------------*/
     .bg-light {
     background-color: #254c54 !important;
@@ -276,20 +312,6 @@
         padding-top: 10px;
     } 
 
-    .btn{
-        height: 3.5em;
-        /* width: 140px; */
-        width: 10.5em;
-        border: none;
-        color: #001305;
-        font-size: 0.8rem;
-        font-weight: 600;
-        margin-bottom: 15px;
-        margin-right: 15px;
-         text-align: center;
-        background: url("../images/greenlake.jpg");
-    }
-
 
     .button-row{
         margin-right: 0;
@@ -349,6 +371,11 @@
         padding-top: 20px;
     }
 
+
+    .heading-signUp{
+        margin-top: 5%;
+    }
+
     .icon i {
         font-size: 25px;
         margin-right: 20px;
@@ -361,8 +388,9 @@
     }
 
     .social-media-heading{
-        padding-top: 80px;
+        padding-top: 18%;
         font-style: italic;
+        margin-top: -12%;
     }
 
     .social-media{
@@ -433,20 +461,6 @@
         padding-top: 15px;
     }
 
-    .btn-form{
-        height: 40px;
-        border-radius: 10%;
-        width: 80px;
-        border: 2px solid #d8e4d8;
-        color: #001305;
-        font-size: 0.8rem;
-        font-weight: 600;
-        margin: 10px;
-        cursor: pointer;
-        text-align: center;
-        padding-top: 0.85em;
-    }
-
     /*-----------------------Footer------------*/
     #footer{
         height: auto;
@@ -461,24 +475,36 @@
         margin-bottom: 3px;
     }
     /*----------------------Modal--------------------*/
-    .modal-content {
+    /* .modal-content {
   background-color: #d5f2d5;
-}
+} */
 
 .modal-title {
   font-size: 25px;
 }
 
 .form-control{
-    margin-top: 10%;
+    padding-top: 0;
 }
 
+.name{
+    margin-left: 2%;
+}
 .small-modal {
-  background-color: #d5f2d5;
+  background-color: #b3d5dc;
 }
 
 .modal-text {
   color: #000000;
+  margin-top: -10%;
+}
+
+.text-muted{
+    padding-bottom: 5%;
+}
+
+.modal-sub{
+    margin-bottom: -5%;
 }
 
     /*---------------------------------------Media Queries-----------------------*/
