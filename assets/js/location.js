@@ -1,12 +1,12 @@
-class Location{
+class Location {
     constructor(location) {
         this.data = location || [];
     }
 }
 
-$(document).ready(function () {
+$(document).ready(function() {
 
-    $.getJSON('assets/json/location.json', function (result) {
+    $.getJSON('assets/json/location.json', function(result) {
         const locations = new Location(result);
 
         const [defaultPlace] = locations.data;
@@ -16,7 +16,7 @@ $(document).ready(function () {
 
 
 
-        $('#locations').on('click', 'li', function () {
+        $('#locations').on('click', 'li', function() {
             const locations = new Location(result);
             const matchedLocation = locations.data.find(place1 => place1.id === this.id);
 
@@ -39,7 +39,7 @@ function initializeMapWithDefaultPlace(initMap, location) {
 
 function appendPlacesOfSelectedLocation(locations) {
     var placeButtons = '';
-    $.each(locations, function (key, place) {
+    $.each(locations, function(key, place) {
         placeButtons += '<li class="btn btn-success" id="' + place.id + '" >' + place.name + '</li>';
     });
     $('#locations').append(placeButtons);
@@ -47,41 +47,20 @@ function appendPlacesOfSelectedLocation(locations) {
 
 
 
- function initMap(lat, lng) {
+function initMap(lat, lng) {
 
-        let myLatLng = {
-            lat: parseFloat(lat),
-            lng: parseFloat(lng)
-        };
+    let myLatLng = {
+        lat: parseFloat(lat),
+        lng: parseFloat(lng)
+    };
 
-        let map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 11,
-            center: myLatLng,
-        });
+    let map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 11,
+        center: myLatLng,
+    });
 
-        new google.maps.Marker({
-            position: myLatLng,
-            map,
-        });
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    new google.maps.Marker({
+        position: myLatLng,
+        map,
+    });
+}
