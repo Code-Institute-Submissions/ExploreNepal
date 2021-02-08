@@ -6,7 +6,7 @@ class Location{
 
 $(document).ready(function () {
 
-    $.getJSON('assets/js/location.json', function (result) {
+    $.getJSON('assets/json/location.json', function (result) {
         const locations = new Location(result);
 
         const [defaultPlace] = locations.data;
