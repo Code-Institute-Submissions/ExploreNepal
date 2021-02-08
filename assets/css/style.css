@@ -263,7 +263,7 @@
 
 
     .carouselImage1{
-        background: url("../images/lumbini.jpg");
+        background: url("../images/everest.jpg");
     }
 
     .carouselImage2{
@@ -271,19 +271,23 @@
     }
 
     .carouselImage3{
-        background: url("../images/himalaya.jpg");
+        background: url("../images/lumbini.jpg");
     }
 
     .carouselImage4{
-        background: url("../images/patan.jpg");
+        background: url("../images/bird.jpg");
     }
 
     .carouselImage5{
-        background: url("../images/food.jpg");
+        background: url("../images/patan.jpg");
     }
 
     .carouselImage6{
-        background: url("../images/yak.jpg");
+        background: url("../images/lake.jpg");
+    }
+
+    .carouselImage7{
+        background: url("../images/food.jpg");
     }
 
     .carouselImageSlider{
@@ -291,6 +295,10 @@
         background-repeat: no-repeat;
         background-size: cover;
         height: 60vh;
+    }
+
+    .col-text{
+        height: 100%;
     }
 
 /*--------------------------Explore page-----------------------*/

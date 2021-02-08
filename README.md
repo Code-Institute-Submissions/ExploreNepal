@@ -156,3 +156,5 @@ ressolved an issue.
 - I have accessed [W3School page](https://www.w3schools.com/js/default.asp) throughout the build process which was really helpful and informative.
 - I have spent some time on [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions) page to gain more knowledge on function and this page was very helpful to understand function in simple way.
 - Thanks to Traversy media for [youtube video](https://www.youtube.com/watch?v=Xy3GlrddZFI) on Fullscreen Video Background With HTML & CSS, I took the concept of having full screen video on my landing page from this video.
+- I have taken most of the images and Text description inside the Carousel of information section from [holidify](https://www.holidify.com/pages/facts-about-nepal-2683.html).
+- I have also taken some of the image from Pinterest(https://www.pinterest.co.uk/pin/99501472997803445/) and from [Google](https://www.google.com/) while creating my carousel image slider.
