@@ -17,7 +17,7 @@ $(document).ready(function() {
         return false;
     });
     
-// Navbar Toggler Icon
+// display nav-items when clicked on toggle button of navbar 
 
     $('.toggle-button').click(function(){
         $('nav').toggleClass('active');
