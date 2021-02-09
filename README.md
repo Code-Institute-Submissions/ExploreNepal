@@ -55,7 +55,7 @@ trigger the interests of all the users who access this website.
 ### Features
  
 ##### Navigation Bar
-- The navigation bar is positioned at the top of the page which is created by using bootstrap library and it contains title and main menu of the website, which allows users to easily navigate and access all section and information regarding the website itself in just one click. Navbar has four menu items which are Home, Information, Explore and Contact. Small logo is positioned on left side of the Navbar which set to display only on large and extra large screen for better UX purpose. 
+- The navigation bar is positioned at the top of the page and it contains main menu of the website, which allows users to easily navigate and access all section and information regarding the website itself in just one click. Navbar has four menu items which are Home, Information, Explore and Contact. Small logo is positioned on left side of the Navbar which set to display only on large and extra large screen for better UX purpose. 
  
 ##### Home Section
 - Background Video

@@ -1,3 +1,4 @@
+// Scrolling Option
 
 $(window).scroll(function() {
     var displayHeight = $(window).scrollTop();
@@ -8,20 +9,54 @@ $(window).scroll(function() {
     }
 });
 $(document).ready(function() {
-    $("#scrollToTop").click(function(event) {
+    $('#scrollToTop').click(function(event) {
         event.preventDefault();
-        $("html, body").animate({              // This line of code taken from stackOverflow
+        $('html, body').animate({              // This line of code taken from stackOverflow
             scrollTop: 0
         }, 'slow');                                 
         return false;
     });
     
-    
-    $(".toggle-button").click(function(){
-        $("nav").toggleClass("active");
+// Navbar Toggler Icon
+
+    $('.toggle-button').click(function(){
+        $('nav').toggleClass('active');
     })
 });
 
 
+$(' header nav .nav-links .menuitem1').mouseenter(function(){
+    $(' header nav .nav-links .menuitem1').css('color', 'var(--red');
+});
+
+$(' header nav .nav-links .menuitem2').mouseleave(function(){
+    $(' header nav .nav-links .menuitem2').css('color', 'var(--white)');
+});
+
+
+$(' header nav .nav-links .menuitem2').mouseenter(function(){
+    $(' header nav .nav-links .menuitem2').css('color', 'var(--red');
+});
+
+$(' header nav .nav-links .menuitem2').mouseleave(function(){
+    $(' header nav .nav-links .menuitem2').css('color', 'var(--white)');
+});
+
+$(' header nav .nav-links .menuitem3').mouseenter(function(){
+    $(' header nav .nav-links .menuitem3').css('color', 'var(--red');
+});
+
+$(' header nav .nav-links .menuitem3').mouseleave(function(){
+    $(' header nav .nav-links .menuitem3').css('color', 'var(--white)');
+});
+    
+
+$(' header nav .nav-links .menuitem4').mouseenter(function(){
+    $(' header nav .nav-links .menuitem4').css('color', 'var(--red');
+});
+
+$(' header nav .nav-links .menuitem4').mouseleave(function(){
+    $(' header nav .nav-links .menuitem4').css('color', 'var(--white)');
+});
  
           
