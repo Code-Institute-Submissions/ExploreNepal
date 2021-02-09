@@ -607,8 +607,6 @@
     }
 
     @media screen and (max-width: 992px){
-        
-        
         .heading-expo{
             padding-left: 8%;
             padding-right: 5%;
@@ -616,6 +614,33 @@
 
         .social-media a i  {
             margin-right: 30px;
+        }
+         header{
+            padding: 0 20px;
+        }
+
+        .toggle-button{
+            display: block;  
+        }
+
+     header nav{
+            /* display: none; */
+            position: absolute;
+            width: 100%;
+            height: calc(100vh - 50px);
+            background: #525252;
+            top: 50px;
+            left: -100%;
+            transition: 0.5s;
+        }
+
+        header nav.active{
+            left: 0;
+        }
+
+    header nav .nav-links {
+            display: block;
+            text-align: center;
         }
     }
 
