@@ -1,6 +1,3 @@
-$(document).on('click', function() {
-    $('.navbar-collapse').collapse('hide');
-});
 
 $(window).scroll(function() {
     var displayHeight = $(window).scrollTop();
@@ -13,9 +10,12 @@ $(window).scroll(function() {
 $(document).ready(function() {
     $("#scrollToTop").click(function(event) {
         event.preventDefault();
-        $("html, body").animate({                            // This block of code taken from stackOverflow
+        $("html, body").animate({              // This line of code taken from stackOverflow
             scrollTop: 0
         }, 'slow');                                 
         return false;
-    });
+    });       
 });
+
+ 
+          

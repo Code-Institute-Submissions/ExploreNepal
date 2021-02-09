@@ -111,35 +111,57 @@
         width: 100px;
     }
     /*----------------Navbar------------------------*/
-    .bg-light {
-        background-color:  var(--blue) !important;
-        z-index: 2;
+    header{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 0 100px;
+        background: blue;
+        width: 100%;
+        box-sizing: border-box;
     }
 
-    .navbar-light .navbar-nav .nav-link {
-        color: #ffffff;
-        font-size: 1.5em;
-        margin-left: 0.75em;
+    header .nav-brand{
+        color: #fafafa;
+        height: 50px;
+        line-height: 50px;
+        font-size: 24px;
+        float: left;
+        
     }
 
-    .navbar-light .navbar-nav .nav-link:hover{
-        color: var(--red);
-        font-weight: bold;
+    header nav{
+        float: right;
     }
 
-    .navbar-light .navbar-nav .active .nav-link {
-        color:  #ffffff;
+    header nav .nav-links{
+        margin: 0;
+        padding: 0;
+        display: flex;
     }
 
-    .navbar-light .navbar-nav .active .nav-link:hover {
-        color: var(--red);
+    header nav .nav-links .nav-item{
+        list-style: none;
     }
 
-    #logo{
-        height: 40px;
-        width: 40px;
+    header nav .nav-links .nav-item a {
+        height: 50px;
+        line-height: 50px;
+        padding: 0 20px;
+        text-decoration: none;
+        display: block;
+        list-style: none;
     }
 
+    .toggle-button{
+        color: brown;
+        float: right;
+        line-height: 50px;
+        font-size: 24px;
+        cursor: pointer;
+        display: none;
+    }
+            
     /*-------------------Landing Page -------------------*/
     .video-content {
         text-align: center;
@@ -171,7 +193,6 @@
     }
 
 
-
     .video-content{
         z-index: 2;
         position: absolute;
@@ -196,7 +217,6 @@
         font-size: 1em;
     }
     /*------------------Information Page------------------*/
-
 
     #info{
         background: var(--white);
@@ -249,6 +269,10 @@
         background: #7c9473;
     }
 
+    .col-text7{
+        background: #e080d9b3;
+    }
+
     .carouselText{
         margin-left: 5%;
         padding-top: 8%;
@@ -294,12 +318,10 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 60vh;
+        min-height: 60vh;
+        object-fit: cover;
     }
 
-    .col-text{
-        height: 100%;
-    }
 
 /*--------------------------Explore page-----------------------*/
     #expo{
@@ -585,10 +607,8 @@
     }
 
     @media screen and (max-width: 992px){
-        .navbar-nav{
-            margin-top: -55px;
-        }
-
+        
+        
         .heading-expo{
             padding-left: 8%;
             padding-right: 5%;
