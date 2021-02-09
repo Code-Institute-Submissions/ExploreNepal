@@ -22,8 +22,16 @@ $(document).ready(function() {
     $('.toggle-button').click(function(){
         $('nav').toggleClass('active');
     })
+
+// Hide Navbar upon clicking on nav-item (On screen below 768px width)
+
+    $('.nav-links').on('click', 'li', function () {
+         $('nav').toggleClass('active');
+    });
+
 });
 
+// hover effect for Nav-items on the Navbar
 
 $('header nav .nav-links .menuitem').hover(function(){
     $(this).css('color', 'var(--red');
