@@ -25,38 +25,12 @@ $(document).ready(function() {
 });
 
 
-$(' header nav .nav-links .menuitem1').mouseenter(function(){
-    $(' header nav .nav-links .menuitem1').css('color', 'var(--red');
-});
-
-$(' header nav .nav-links .menuitem2').mouseleave(function(){
-    $(' header nav .nav-links .menuitem2').css('color', 'var(--white)');
-});
+$('header nav .nav-links .menuitem').hover(function(){
+    $(this).css('color', 'var(--red');
+   }, function(){
+     $(this).css('color', 'var(--white');
+   });
 
 
-$(' header nav .nav-links .menuitem2').mouseenter(function(){
-    $(' header nav .nav-links .menuitem2').css('color', 'var(--red');
-});
 
-$(' header nav .nav-links .menuitem2').mouseleave(function(){
-    $(' header nav .nav-links .menuitem2').css('color', 'var(--white)');
-});
 
-$(' header nav .nav-links .menuitem3').mouseenter(function(){
-    $(' header nav .nav-links .menuitem3').css('color', 'var(--red');
-});
-
-$(' header nav .nav-links .menuitem3').mouseleave(function(){
-    $(' header nav .nav-links .menuitem3').css('color', 'var(--white)');
-});
-    
-
-$(' header nav .nav-links .menuitem4').mouseenter(function(){
-    $(' header nav .nav-links .menuitem4').css('color', 'var(--red');
-});
-
-$(' header nav .nav-links .menuitem4').mouseleave(function(){
-    $(' header nav .nav-links .menuitem4').css('color', 'var(--white)');
-});
- 
-          
