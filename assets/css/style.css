@@ -25,7 +25,7 @@
     #scrollToTop{
         position: fixed;
         width: 40px;
-        bottom: 27px;
+        bottom: 40px;
         right: 0;
         background-color: rgb(195 171 171 / 0%);
         color: var(--orange);
@@ -101,6 +101,9 @@
         margin: 10px;
         cursor: pointer;
         text-align: center;
+        padding-top: 6px;
+        margin-top: 20px;
+
     }
 
     .btn-modal{
@@ -443,7 +446,7 @@
 
     .col-heading{
         padding-top: 5px;
-        background: #f0f8ffba;
+        background: #f0f8ffe0;;
     }
 
     .caption{
@@ -518,7 +521,7 @@
 
     /*Code taken from youtube video of True Coder (https://www.youtube.com/watch?v=rpujWVkmiPE) and modified as per project requirement--END-- */
     .heading-contact{
-        color: var(--blue);
+        color: #61050ee8;
     }
     input {
         overflow: visible;
@@ -579,6 +582,11 @@
 
     .form-control{
         padding-top: 0;
+    }
+
+
+    .form-row{
+        margin-right: 0;
     }
 
     .name{
@@ -650,7 +658,7 @@
         }
     }
 
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 767px){
          header{
             padding: 0 20px;
         }
@@ -679,12 +687,33 @@
             display: block;
             text-align: center;
         }
+
+
+        .form-row{
+            flex-direction: column-reverse;
+        }
+
+        .contact-form::after {
+            content: "";
+            position: absolute;
+            background-color: rgb(50 96 55);
+            width: 30px;
+            height: 30px;
+            transform: rotate(45deg);
+            top: 97%;
+            left: 85%;
+        }
+
+
+        .contact-form::before{
+            display: none;
+        }
     /*Code taken from youtube video of True Coder (https://www.youtube.com/watch?v=rpujWVkmiPE) and modified as per project requirement --START-- */
-        .contact-form:before {
-            top: -13px;
+        /* .contact-form:before {
+            bottom: -13px;
             left: initial;
             right: 70px;
-        }
+        } */
     /*Code taken from youtube video of True Coder (https://www.youtube.com/watch?v=rpujWVkmiPE) and modified as per project requirement --END-- */
         /* .carouselImageSlider{
             height: 50vh;
@@ -731,6 +760,10 @@
     @media screen and (max-width: 420px){
         .btn{
             width: 40%;
+        }
+
+        .btn-form{
+            width: auto;
         }
 
         .circle{
