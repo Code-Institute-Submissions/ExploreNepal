@@ -152,13 +152,11 @@
     }
 
     header nav{
-        /* float: left; */
         float: right;
     }
 
     header nav .nav-links{
         margin: 0;
-        /* padding: 0; */
         display: flex;
     }
 
@@ -167,7 +165,6 @@
     }
 
     header nav .nav-links .nav-item a {
-        /* height: 50px; */
         line-height: 55px;
         padding: 0 30px;
         text-decoration: none;
@@ -177,11 +174,6 @@
         color: var(--white);
         font-weight: bold;
     }
-
-
-    /* .nav-links .nav-item .active-nav{
-        color: #000000;
-    } */
 
     .toggle-button{
         color: var(--white);
@@ -355,9 +347,8 @@
         background-repeat: no-repeat;
         background-size: cover;
         min-height: 450px;
-        /* object-fit: cover; */
+       
     }
-
 
 /*--------------------------Explore page-----------------------*/
     #expo{
@@ -368,7 +359,7 @@
 
 
     .heading-expo{
-        color: #44161f;
+        color: var(--white);
         text-align: start;
         margin-left: 4%;
         padding-top: 5%;
@@ -376,10 +367,6 @@
     }
  
 
-    /* .heading-sub-info{
-        padding-right: 5%;
-    }
-     */
     .container-expo{
         padding-right: 0;
         padding-left: 0;
@@ -394,7 +381,7 @@
         padding-right: 5%;
         padding-left: 5%;
         padding-top: 2%;
-        color: #000000;
+        color: var(--white);
 
     }
 
@@ -423,7 +410,7 @@
     .btn-col{
         text-align: center;
     }
-    /*--------------Google Map----*/
+    /*------------------------------Google Map-------------------*/
     #map{
         min-height: 50vh;
         height: 100%;
@@ -518,7 +505,7 @@
     /*Code taken from youtube video of True Coder (https://www.youtube.com/watch?v=rpujWVkmiPE) and modified as per project requirement--START-- */
 
     .contact-form::before{
-    content: "";
+        content: "";
         position: absolute;
         background-color:  rgb(50 96 55);
         width: 30px;
@@ -532,6 +519,8 @@
     .heading-contact{
         color: #61050ee8;
     }
+
+
     input {
         overflow: visible;
         width: 80%;
@@ -674,10 +663,8 @@
         }
 
         header nav{
-            /* display: none; */
             position: absolute;
-            width: 100%;
-            /* height: calc(100vh - 50px); */
+            width: 100%;           
             background: var(--blue);
             top: 50px;
             left: -100%;
@@ -707,7 +694,6 @@
     }
 
     @media screen and (max-width: 767px){
-
         .form-row{
             flex-direction: column-reverse;
         }
@@ -727,17 +713,7 @@
         .contact-form::before{
             display: none;
         }
-    /*Code taken from youtube video of True Coder (https://www.youtube.com/watch?v=rpujWVkmiPE) and modified as per project requirement --START-- */
-        /* .contact-form:before {
-            bottom: -13px;
-            left: initial;
-            right: 70px;
-        } */
-    /*Code taken from youtube video of True Coder (https://www.youtube.com/watch?v=rpujWVkmiPE) and modified as per project requirement --END-- */
-        /* .carouselImageSlider{
-            height: 50vh;
-        }
-     */
+    
         .container-form{
             padding-left: 0;
             padding-right: 0;
@@ -759,7 +735,6 @@
         }
 
     }
-
 
 
     @media screen and (max-width: 576px){
