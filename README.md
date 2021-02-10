@@ -227,3 +227,9 @@ The project was deployed to GitHub Pages using the following steps...
 - I was relied on various resources to gather information and images of nepal, those including Pinterest(https://www.pinterest.co.uk/pin/99501472997803445/), [Kids-world-travel-guide.com](https://www.kids-world-travel-guide.com/nepal-facts.html), [Britannica](https://www.britannica.com/place/Nepal/Climate), [Wikipedia](https://en.wikipedia.org/wiki/Nepal) and [Google](https://www.google.com/) were my main source of information and images about nepal.
 - I have also taken some Image and Background video for my landing page from [Unsplash](https://unsplash.com/)
 - Logo and flag that I have used on my landing page is official symbol and flag of Nepal , I have taken both from [Google](https://www.google.com/).
+
+
+## Aknowledgement
+- I would like to thnnk my mentor Nishant Kumar for his guidance and advice on this project before submission.
+- Thanks to everyone on Slack Community for always being on-hand with requests and support.
+- Thanks to everyone from Student Care team (CI) for keeping me update with all changes such as tutor support availibility holiday period and most importantly checking regularly on my progress and always ready to support on study.

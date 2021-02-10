@@ -734,10 +734,14 @@
         #map{
             margin-right: 0;
         }
-
     }
 
 
+    @media screen and (max-height: 736px){
+        .img-over-video img{
+            display: none;
+        }
+    }
 
     @media screen and (max-width: 576px){
         .video-heading-sub {
