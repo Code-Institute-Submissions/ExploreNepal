@@ -31,6 +31,9 @@ $(document).ready(function() {
 function setPlaceLocationCard(location) {
     $('#description').text(location.description);
     $('.circle').css('background', 'url("' + location.imageurl + '")');
+    $('.circle').css('background-position', ('center'));
+    $('.circle').css('background-size', ('cover'));
+    $('.circle').css('background-repeat', ('no-repeat'));
 }
 
 function initializeMapWithDefaultPlace(initMap, location) {

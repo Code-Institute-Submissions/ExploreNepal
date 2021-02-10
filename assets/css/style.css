@@ -79,6 +79,7 @@
         height: 3.5em;
         width: 10.5em;
         border: none;
+        padding-top: 1em;
         color: #001305;
         font-size: 0.8rem;
         font-weight: 600;
@@ -234,7 +235,6 @@
         font-size: 1em;
     }
     /*------------------Information Page------------------*/
-
     #info{
         background: var(--white);
     }
@@ -268,6 +268,13 @@
 
     .col-text2{
         background: #ffcda3;
+    }
+
+
+    .quote{
+        font-style: italic;
+        color: #44161f;
+        font-family: bold;
     }
 
     .col-text3{
@@ -398,6 +405,7 @@
 
     .button-places{
         margin-bottom: 20px;
+        margin-left: -25px;
     }
 
     .btn-col{
