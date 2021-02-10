@@ -72,10 +72,11 @@ All the menu items to access the sections tested and took the users to the corre
 
 ### devtool
 - All section of the page were inspected and for various phone/ipad/tab to ensure page is fully responsive and no issue was noticed.
+- [No errors shown on devtool console](assets/videos/console.mp4)
  
 # Site Testing on Live page - Test carried on Desktop, Laptop, iPad, IPhone and Android phones.
 - Navbar testing - Display correctly and work to direct the correct section(s) across all devices, toggle button collapse upon clicking and and navbar hidden once clicked on nav-item and re-appear again once clicked on toggle button 
-- Background video of on landing page - Video did not play on iPhone 11 ,whic resulted page with fullscreen background image instead of video - issue not ressolved yet , done plenty of research on Google, stackoverflow and also approached to slack team, tutor support and mentor as well but couldnt ressolve this, most of the resourses advised to use 'playsinline' attribute within img tag for this issue to be solved which was already in my codes but still not working. Unable to identify this issue or it could be something wrong with phone setting as well. I have noticed that this is ongoing issuwe with people all over and issue raised everywhere, one of the [link](https://forum.squarespace.com/topic/153793-background-video-not-playing-on-newer-iphones/) from google in related to similar issue.
+- Background video of on landing page - Video did not play on iPhone 11 ,which resulted page with fullscreen background image instead of video - issue not ressolved yet , done plenty of research on Google, stackoverflow and also approached to slack team, tutor support and mentor as well but couldnt ressolve this, most of the resourses advised to use 'playsinline' attribute within img tag for this issue to be solved which was already in my codes but still not working. Unable to identify this issue or it could be something wrong with phone setting as well. I have noticed that this is ongoing issuwe with people all over and issue raised everywhere, one of the [link](https://forum.squarespace.com/topic/153793-background-video-not-playing-on-newer-iphones/) from google in related to similar issue.
 - Flag's waving animation - Flag on the center of landing page waving on all screen
 - Carousel of 'Information' section - Carousel is sliding the descriptions and images accordingly without any issue
 - Buttons - all the buttons working as expected, The clicked button(s) are showing the correct image(s) and description(s) when clicked
