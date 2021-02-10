@@ -6,7 +6,7 @@
 - Upon entering the site, users are automatically greeted by the navigation bar at the top of the page  which contains menu items, linked to the sections of the site and allow users to access the section(s) of their choice.
 - All the menu items to access the sections tested and all those took the users to the correct sections.
 
-#### As a First Time User of this site, I want to get educated with knowledge about Nepal as a country, its culture and any interesting or fun facts about the country itself
+#### As a First Time User of this site, I want to get educated with knowledge about Nepal as a country, with its amazing and intresting facts.
 - Information option from menu item of navbar will take user to the second section where 'About Nepal’ sub-section greeted the users with general information, history and interesting facts to add knowledge about Nepal to users
 - The carousel used on this section tested and all the details slide accordingly shown the correct descriptions and images of Nepal
 - All images tested and they are loading properly, responsive on small devices and were not overlapping to one another.
@@ -64,12 +64,16 @@ All the menu items to access the sections tested and took the users to the corre
  
 ### Javascript
 - Ran all codes through [JSHINT](https://jshint.com/)
- - One errors which state that $ and google in undefined
+ - One errors which state that $ and google in undefined ; I have done some research on this and also approach to the community on slack and found that my JSHINT on my browser assume that I am not using jQuery therefore error shown, > clicked on configure option on top of JSHINT page and found jQuery option was not ticked, I ticked jQuery and re-ran the codes few times and all passed without any issue.
+ - One missing semicolon error shown when I did my final check after making some changes to the code , and this was easy fix. 
+
+### Lighthouse
+- Lighthouse test was performed on devtool to check the site's performance and Accessibility, initially report showed performance score only 53 and I spotted that larger image sizes were causing issue , I have then compressed all the large sized pictures and uploaded again which then [lifted the performance score to 71](assets/images/lighthouse.jpg).
  
  
 # Site Testing on Live page - Test carried on Desktop, Laptop, iPad, IPhone and Android phones.
-- Navbar testing - Display correctly and work to direct the correct section(s) across all devices
-- Background video of 'Home' section - Video did not play on iPhone 11 - issue not ressolved yet as could not find any possible way to fix this
+- Navbar testing - Display correctly and work to direct the correct section(s) across all devices, toggle button collapse upon clicking and and navbar hidden once clicked on nav-item and re-appear again once clicked on toggle button 
+- Background video of on landing page - Video did not play on iPhone 11 - issue not ressolved yet , done plenty of research on Google, stackoverflow and also approached to slack team, tutor support and mentor as well but couldnt ressolve this, most of the resourses advised to use 'playsinline' attribute within img tag for this issue to be solved which was already in my codes but still not working. Unable to identify this issue or it could be something wrong with phone setting as well.
 - Flag's waving animation - Flag on the center of landing page waving on all screen
 - Carousel of 'Information' section - Carousel is sliding the descriptions and images accordingly without any issue
 - Buttons - all the buttons working as expected, The clicked button(s) are showing the correct image(s) and description(s) when clicked
@@ -78,7 +82,7 @@ All the menu items to access the sections tested and took the users to the corre
 - Google Maps and its marker - Google maps loads properly and the marker is updated accoding to the clicked button
 - Social media icons of 'Contact Us' section - The icons redirect to the login pages of each social media upon clicking on the icons
 - Form of 'Contact Us' section - Fields are filled when appropriate and 'send' button is working, error message with 'required' appeared while submitting the form without completing the input field
-- Contact Us form is sent as an email using sendMail function - email received while submitting the form
+- Contact Us form is sent as an email using sendMail function - email received while submitting the form, success message with status code: 200 shown on console.
 
 
 

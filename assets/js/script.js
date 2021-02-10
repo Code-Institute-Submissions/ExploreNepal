@@ -21,7 +21,7 @@ $(document).ready(function() {
 
     $('.toggle-button').click(function(){
         $('nav').toggleClass('active');
-    })
+    });
 
 // Hide Navbar upon clicking on nav-item (On screen below 768px width)
 
