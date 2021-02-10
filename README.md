@@ -1,4 +1,11 @@
-# Purpose/Aim
+
+# **Visit Nepal 2021**
+
+![image](assets/images/responsive.jpg)
+
+
+
+## Purpose/Aim
 
 The website serves as an educational site for sharing information and knowledge about Nepal. The development of this website is targeted to educate the users or readers to 
 get familiar with Nepal as country, its amazing facts and the interesting places as attractions to visit.
@@ -9,7 +16,7 @@ With the specified purpose and aim in mind, I have decided to build this website
 the amazing yet interesting information about Nepal. This will hopefully attract more people or traveller to visit the beautiful Nepal once the pandemic is over as well as 
 trigger the interests of all the users who access this website.
 
-# Table of Contents
+## Table of Contents
 
  - [User Stories](#user-stories)
  - [Wireframes](#wireframes)
@@ -28,20 +35,20 @@ trigger the interests of all the users who access this website.
  - [Aknowledgement](#aknowledgement)
 
 
-## User Stories
+### User Stories
 
-### First Time User Goals
+#### First Time User Goals
 - As a First Time User of this site, I want to easily navigate the site across all pages
 - As a First Time User of this site, I want to get educated with knowledge about Nepal as a country with its amazing and intresting fact.
 - As a First Time User of this site, I want to get information of unique attractions and places in Nepal as a future reference when planning for visiting Nepal
 
-### Frequent User Goals
+#### Frequent User Goals
 - As a Frequent User of this site, I want to easily navigate the site across all pages
 - As a Frequent User of this site, I want to find new information about Nepal, e.g. interesting facts which updated into this website
 - As a Frequent User of this site, I want to be able to get updates about places and attractions to visit in Nepal
 - As a Frequent User of this site, I want to get connected with various knowledge about Nepal via social media.
 
-### Return Users Goals
+#### Return Users Goals
 - As a Return User of this site, I want to easily navigate the site across all pages
 - As a Return User of this site, I want to be able read through all the information and update my knowledge about Nepal, in general
 - As a Return User of this site, I want to find various locations of places to visit in Nepal
@@ -70,26 +77,26 @@ trigger the interests of all the users who access this website.
 the site correctly, Yusei Magic font used for all the headings and Ovo font used for all the paragraph texts.
 
 
-### Features
+## Features
  
-##### Navigation Bar
+#### Navigation Bar
 - The navigation bar is positioned at the top of the page and it contains main menu of the website, which allows users to easily navigate and access all section and information regarding the website itself in just one click. Navbar has four menu items which are Home, Information, Explore and Contact. Small logo and nav-title is positioned on left side of the Navbar, logo used on this page is official symbol of nepal in real and I have taken this from google. Logo set to be hidden on xs screen size for better ux purpose. 
  
-##### Home Section
+#### Home Section
 - Background Video
   - The background video of landing page is carefully choosen to show the beautiful nature of the contents to users. The video serves as welcome getaway to encourage the curiosity and exploration sense of the users who are accessing the website. The video will draw the attention and give clear indicative of what the website is trying to display or share to the users.
 - Contents
   - Home section is the landing page to welcome the users who access the website. The display contents are simple and concise which able to give a brief information about the country of interest. The flag is catchy and uniquely place in the middle as a centre stage to focus the attention of users, followed by the name of the country of interest and its nickname which truly engaging the curiosity sense of the users. This website is aiming to introduce the country of interest to the world from unusual point of view of the website’s creator by sharing some of the remarkable information and his favourite places.
  
-##### Information Section
+#### Information Section
 - Heading
   - The first part of Information section is to introduce the country of interest to the users by stating the general information, and other interesting facts which informative and add the overall knowledge of the users regarding this country of interest.
   - The second part of Information section is created using bootstrap carousel to show combination of descriptions and images to slide through in the display which give more detail information about the unique and amazing fact of the country. This part of the section is important piece of the website to convey the correct message of the vast and dynamic attractions of the country to the users.
  
-##### Explore Section
+#### Explore Section
 - The Explore section is created mainly by utilizing JavaScript and jQuery effets to the overall section, such as buttons, images, texts and most importantly the Google Maps is embedded into this section by utilizing google map API. The buttons of interesting places in the country of interest serve as command to display the right images and followed by its descriptions as well as at the same time allowing the marker in Google Maps to call the right location coordinates of those places. This feature will ensure visibility for the users to check and locate those places accordingly.
  
-##### Contact Us Section
+#### Contact Us Section
 - Background Image
   - The image is specially selected to illustrate the natural life of this country of interest which will bring calmness and serenity to the users who see this image. The image is also displayed to trigger nostalgic experiences in life which can bring happy memories and increase their dopamine level.
 - Contents
@@ -98,7 +105,7 @@ the site correctly, Yusei Magic font used for all the headings and Ovo font used
   - This section also has an sign up button for user to sign up to the page , once sign up users will be getting all the updates on the website to their email directly, however this is not fully functioning yet and will be adding this functionality in future.
   - Contact details displayed on this section doesnt belong to anyone and wnywhere and those information are imaginary and only used for webpage building purpose.
 
-##### Scroll to top arrow
+#### Scroll to top arrow
 - An upward arrow is also added to the right corner of the page which set to be only be visible once user scroll below from the landing page, purpose of this arrow is to take the user to the top of the page directly upon clicking on this arrow therefore user do not require to scroll manually all the way to the top of the page to access the Navbar, arrow will fade away in 2000ms once user reach to the landing page everytime and fade in again once user reach to the next page either by scrolling or by selecting the options from Navbar.
 
 
@@ -214,6 +221,32 @@ The project was deployed to GitHub Pages using the following steps...
 6. Scroll back down to the GitHub Pages section to retrive the link to the deployed website.
 
 
+### Making a Local Clone
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied in Step 3.
+
+```
+$ git clone https://github.com/shiva123-coder/Vibrant-Future-Foundation-.git
+``` 
+
+7. Press Enter. Your local clone will be created.
+```
+$ git clone https://github.com/shiva123-coder/ExploreNepal.git
+Cloning into 'ExploreNepal'...
+remote: Enumerating objects: 726, done.
+remote: Counting objects: 100% (726/726), done.
+remote: Compressing objects: 100% (437/437), done.
+remote: Total 726 (delta 415), reused 519 (delta 213), pack-reused 0
+Receiving objects: 100% (726/726), 17.74 MiB | 2.42 MiB/s, done.
+Resolving deltas: 100% (415/415), done.
+
+```
+
 ## Credits
 - Thanks to True Coder for [youtube video](https://www.youtube.com/watch?v=rpujWVkmiPE) on Contact form, this video inspire me to create the unique contact form rather than just normal form, I have also taken some concept and also took some code while styling my contact form.
 - Thanks to zFunx Web Developement for [youtube video](https://www.youtube.com/watch?v=R7OcJyL_rbw) on Responsive Circle using CSS, I have taken some code from this video and modified as per my requirement.
@@ -232,6 +265,6 @@ The project was deployed to GitHub Pages using the following steps...
 
 ## Aknowledgement
 
-- I would like to thnnk my mentor Nishant Kumar for his guidance and advice on this project before submission.
+- I would like to thank my mentor Nishant Kumar for his guidance and advice on this project before submission.
 - Thanks to everyone on Slack Community for always being on-hand with requests and support.
-- Thanks to everyone from Student Care team (CI) for keeping me update with all changes such as tutor support availibility holiday period and most importantly checking regularly on my progress and always ready to support on study.
+- Thanks to everyone from Student Care team (CI) for keeping me update with all changes such as tutor support availibility holiday period and most importantly checking regularly on my progress and always ready to support on my study.

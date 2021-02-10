@@ -7,7 +7,6 @@
         overflow-x: hidden;
     }
 
-
     body{
         margin: 0;
         padding: 0;
@@ -733,11 +732,6 @@
         }
     }
 
-    @media screen and (max-height: 736px){
-          .image-over-video img{
-              display: none;
-          }
-      }
 
     @media screen and (max-width: 576px){
         .video-heading-sub {
@@ -752,6 +746,15 @@
             min-height: 380px;
         }
     }
+
+    
+    @media screen and (max-height: 414px){
+          .image-over-video img{
+              display: none;
+          }
+      }
+      
+
 
     
      @media screen and (max-width: 400px){
