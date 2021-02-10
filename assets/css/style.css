@@ -103,7 +103,6 @@
         text-align: center;
         padding-top: 6px;
         margin-top: 20px;
-
     }
 
     .btn-modal{
@@ -114,6 +113,7 @@
     .btn-signUp{
         width: 100px;
     }
+
     /*----------------Navbar------------------------*/
     .nav-title{
         color: var(--red);
@@ -151,14 +151,12 @@
         margin-top: 4px;
     }
 
-    header nav{
-        /* float: left; */
+    header nav{        
         float: right;
     }
 
     header nav .nav-links{
         margin: 0;
-        /* padding: 0; */
         display: flex;
     }
 
@@ -167,7 +165,6 @@
     }
 
     header nav .nav-links .nav-item a {
-        /* height: 50px; */
         line-height: 55px;
         padding: 0 30px;
         text-decoration: none;
@@ -178,10 +175,6 @@
         font-weight: bold;
     }
 
-
-    /* .nav-links .nav-item .active-nav{
-        color: #000000;
-    } */
 
     .toggle-button{
         color: var(--white);
@@ -321,7 +314,6 @@
     }
 
 
-
     .carouselImage1{
         background: url("../images/mount.jpg");
     }
@@ -355,7 +347,6 @@
         background-repeat: no-repeat;
         background-size: cover;
         min-height: 450px;
-        /* object-fit: cover; */
     }
 
 
@@ -368,7 +359,7 @@
 
 
     .heading-expo{
-        color: #44161f;
+        color: var(--white);
         text-align: start;
         margin-left: 4%;
         padding-top: 5%;
@@ -376,10 +367,6 @@
     }
  
 
-    /* .heading-sub-info{
-        padding-right: 5%;
-    }
-     */
     .container-expo{
         padding-right: 0;
         padding-left: 0;
@@ -394,7 +381,7 @@
         padding-right: 5%;
         padding-left: 5%;
         padding-top: 2%;
-        color: #000000;
+        color: var(--white);
 
     }
 
@@ -423,7 +410,7 @@
     .btn-col{
         text-align: center;
     }
-    /*--------------Google Map----*/
+    /*-------------------------Google Map-------------------*/
     #map{
         min-height: 50vh;
         height: 100%;
@@ -431,7 +418,6 @@
         border: 2px solid rgb(238, 138, 7);
 
     }
-
     /*-------------------------------Contact Page-------------------*/
     #contact{
         background: url("../images/village.jpg");
@@ -532,6 +518,8 @@
     .heading-contact{
         color: #61050ee8;
     }
+
+
     input {
         overflow: visible;
         width: 80%;
@@ -674,10 +662,8 @@
         }
 
         header nav{
-            /* display: none; */
             position: absolute;
-            width: 100%;
-            /* height: calc(100vh - 50px); */
+            width: 100%;            
             background: var(--blue);
             top: 50px;
             left: -100%;
@@ -727,17 +713,8 @@
         .contact-form::before{
             display: none;
         }
-    /*Code taken from youtube video of True Coder (https://www.youtube.com/watch?v=rpujWVkmiPE) and modified as per project requirement --START-- */
-        /* .contact-form:before {
-            bottom: -13px;
-            left: initial;
-            right: 70px;
-        } */
-    /*Code taken from youtube video of True Coder (https://www.youtube.com/watch?v=rpujWVkmiPE) and modified as per project requirement --END-- */
-        /* .carouselImageSlider{
-            height: 50vh;
-        }
-     */
+    
+
         .container-form{
             padding-left: 0;
             padding-right: 0;
@@ -785,7 +762,7 @@
 
 
     @media screen and (max-width: 420px){
-           .btn{
+        .btn{
             width: 40%;
         }
 

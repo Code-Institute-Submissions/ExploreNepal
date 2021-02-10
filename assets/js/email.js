@@ -19,7 +19,7 @@ function sendMail(contactForm) {
 
 
 
-$( "#contactForm" ).submit(function( event ) {
-  event.preventDefault();
-  alert( "Your Message has been sent !\n Thank you!!" );
+$("#contactForm").submit(function(event) {
+    event.preventDefault();
+    alert("Your Message has been sent !\n Thank you!!");
 });

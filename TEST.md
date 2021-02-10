@@ -69,11 +69,13 @@ All the menu items to access the sections tested and took the users to the corre
 
 ### Lighthouse
 - Lighthouse test was performed on devtool to check the site's performance and Accessibility, initially report showed performance score only 53 and I spotted that larger image sizes were causing issue , I have then compressed all the large sized pictures and uploaded again which then [lifted the performance score to 71](assets/images/lighthouse.jpg).
- 
+
+### devtool
+- All section of the page were inspected and for various phone/ipad/tab to ensure page is fully responsive and no issue was noticed - [Video here](assets/videos/testondevtool.mp4).
  
 # Site Testing on Live page - Test carried on Desktop, Laptop, iPad, IPhone and Android phones.
 - Navbar testing - Display correctly and work to direct the correct section(s) across all devices, toggle button collapse upon clicking and and navbar hidden once clicked on nav-item and re-appear again once clicked on toggle button 
-- Background video of on landing page - Video did not play on iPhone 11 - issue not ressolved yet , done plenty of research on Google, stackoverflow and also approached to slack team, tutor support and mentor as well but couldnt ressolve this, most of the resourses advised to use 'playsinline' attribute within img tag for this issue to be solved which was already in my codes but still not working. Unable to identify this issue or it could be something wrong with phone setting as well.
+- Background video of on landing page - Video did not play on iPhone 11 and displayed as a full screen background image instead of full screen background video - issue not ressolved yet , done plenty of research on Google, stackoverflow and also approached to slack team, tutor support and mentor as well but couldnt ressolve this, most of the resourses advised to use 'playsinline' attribute within img tag for this issue to be solved which was already in my codes but still not working. Unable to identify this issue or it could be something wrong with phone setting as well. found few people reported similar issue, one of the [link here with similar issue](https://forum.squarespace.com/topic/151440-banner-videos-not-playing-in-newer-iphones-and-samsung/)
 - Flag's waving animation - Flag on the center of landing page waving on all screen
 - Carousel of 'Information' section - Carousel is sliding the descriptions and images accordingly without any issue
 - Buttons - all the buttons working as expected, The clicked button(s) are showing the correct image(s) and description(s) when clicked
@@ -83,7 +85,6 @@ All the menu items to access the sections tested and took the users to the corre
 - Social media icons of 'Contact Us' section - The icons redirect to the login pages of each social media upon clicking on the icons
 - Form of 'Contact Us' section - Fields are filled when appropriate and 'send' button is working, error message with 'required' appeared while submitting the form without completing the input field
 - Contact Us form is sent as an email using sendMail function - email received while submitting the form, success message with status code: 200 shown on console.
-
 
 
 
