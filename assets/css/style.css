@@ -749,9 +749,21 @@
 
     
     @media screen and (max-height: 414px){
-          .image-over-video img{
-              display: none;
-          }
+        .image-over-video img{
+            display: none;
+        }
+
+        .video-heading{
+            font-size: 2em;
+        }
+
+        .video-heading-sub{
+            font-size: 1.5em;
+        }
+
+        .detail-heading{
+            font-size: 1em;
+        }
       }
       
     
