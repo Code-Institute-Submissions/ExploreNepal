@@ -151,7 +151,7 @@
         margin-top: 4px;
     }
 
-    header nav{        
+    header nav{
         float: right;
     }
 
@@ -346,6 +346,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         min-height: 450px;
+       
     }
 
 /*--------------------------Explore page-----------------------*/
@@ -408,7 +409,7 @@
     .btn-col{
         text-align: center;
     }
-    /*-------------------------Google Map-------------------*/
+    /*------------------------------Google Map-------------------*/
     #map{
         min-height: 50vh;
         height: 100%;
@@ -661,7 +662,7 @@
 
         header nav{
             position: absolute;
-            width: 100%;            
+            width: 100%;           
             background: var(--blue);
             top: 50px;
             left: -100%;
@@ -711,7 +712,6 @@
             display: none;
         }
     
-
         .container-form{
             padding-left: 0;
             padding-right: 0;
@@ -733,12 +733,6 @@
         }
     }
 
-
-    @media screen and (max-height: 736px){
-        .img-over-video img{
-            display: none;
-        }
-    }
     @media screen and (max-height: 736px){
           .image-over-video img{
               display: none;

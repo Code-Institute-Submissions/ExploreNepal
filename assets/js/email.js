@@ -30,4 +30,7 @@ $( "#contactForm" ).submit(function( event ) {
 });
 
 
+<<<<<<< HEAD
+>>>>>>> 08a5924e719f5d3732d96eea74e64d26b89c2718
+=======
 >>>>>>> 08a5924e719f5d3732d96eea74e64d26b89c2718

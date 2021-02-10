@@ -229,7 +229,9 @@ The project was deployed to GitHub Pages using the following steps...
 - Logo and flag that I have used on my landing page is official symbol and flag of Nepal , I have taken both from [Google](https://www.google.com/).
 
 
+
 ## Aknowledgement
+
 - I would like to thnnk my mentor Nishant Kumar for his guidance and advice on this project before submission.
 - Thanks to everyone on Slack Community for always being on-hand with requests and support.
 - Thanks to everyone from Student Care team (CI) for keeping me update with all changes such as tutor support availibility holiday period and most importantly checking regularly on my progress and always ready to support on study.
