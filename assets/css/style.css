@@ -145,9 +145,9 @@
         position: absolute;
         top: 0;
         left: 2%;
-        height: 46px;
-        width: 50px;
-        margin-top: 4px;
+        height: 42px;
+        width: 45px;
+        margin-top: 6px;
     }
 
     header nav{
@@ -754,8 +754,6 @@
           }
       }
       
-
-
     
      @media screen and (max-width: 400px){
         .col-text{
