@@ -175,7 +175,6 @@
         font-weight: bold;
     }
 
-
     .toggle-button{
         color: var(--white);
         float: right;
@@ -349,7 +348,6 @@
         min-height: 450px;
     }
 
-
 /*--------------------------Explore page-----------------------*/
     #expo{
         padding-left: 0;
@@ -504,7 +502,7 @@
     /*Code taken from youtube video of True Coder (https://www.youtube.com/watch?v=rpujWVkmiPE) and modified as per project requirement--START-- */
 
     .contact-form::before{
-    content: "";
+        content: "";
         position: absolute;
         background-color:  rgb(50 96 55);
         width: 30px;
@@ -693,7 +691,6 @@
     }
 
     @media screen and (max-width: 767px){
-
         .form-row{
             flex-direction: column-reverse;
         }
@@ -742,6 +739,11 @@
             display: none;
         }
     }
+    @media screen and (max-height: 736px){
+          .image-over-video img{
+              display: none;
+          }
+      }
 
     @media screen and (max-width: 576px){
         .video-heading-sub {

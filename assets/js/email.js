@@ -11,7 +11,6 @@ function sendMail(contactForm) {
                 contactForm.reset();
             },
             function(error) {
-                git
                 console.log("FAILED", error);
             });
     return false;
@@ -19,7 +18,16 @@ function sendMail(contactForm) {
 
 
 
+<<<<<<< HEAD
 $("#contactForm").submit(function(event) {
     event.preventDefault();
     alert("Your Message has been sent !\n Thank you!!");
 });
+=======
+$( "#contactForm" ).submit(function( event ) {
+  event.preventDefault();
+  alert( "Your Message has been sent !\n Thank you!!" );
+});
+
+
+>>>>>>> 08a5924e719f5d3732d96eea74e64d26b89c2718
