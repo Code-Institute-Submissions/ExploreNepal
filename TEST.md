@@ -71,7 +71,7 @@ All the menu items to access the sections tested and took the users to the corre
 - Lighthouse test was performed on devtool to check the site's performance and Accessibility, initially report showed performance score only 53 and I spotted that larger image sizes were causing issue , I have then compressed all the large sized pictures and uploaded again which then [lifted the performance score to 71](assets/images/lighthouse.jpg).
 
 ### devtool
-- All section of the page were inspected and for various phone/ipad/tab to ensure page is fully responsive and no issue was noticed - [Video here](assets/videos/testondevtool.mp4).
+- All section of the page were inspected and for various phone/ipad/tab to ensure page is fully responsive and no issue was noticed.
  
 # Site Testing on Live page - Test carried on Desktop, Laptop, iPad, IPhone and Android phones.
 - Navbar testing - Display correctly and work to direct the correct section(s) across all devices, toggle button collapse upon clicking and and navbar hidden once clicked on nav-item and re-appear again once clicked on toggle button 
