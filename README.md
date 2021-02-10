@@ -13,14 +13,16 @@ trigger the interests of all the users who access this website.
 
  - [User Stories](#user-stories)
  - [Wireframes](#wireframes)
+ - [Design](#design)
+ - [Typography](#typography)
  - [Features](#features)
  - [Future Features to be Implemented](#future-features-to-be-implemented)
  - [Technologies Used](#technologies-used)
-   - [Language Used](#language-used)
-   - [Frameworks, Libraries, Programme and Resources Used](#frameworks,-libraries,-programme-and-resources-used)
+   - [Languages Used](#languages-used)
+   - [Frameworks, Libraries, Programme and Resources Used](#frameworks-libraries-programme-and-resources-used)
    - [Code Validation](#code-validation)
- - [Testing](#testing)
  - [Issues and Resolution](#issues-and-resolutions)
+ - [Testing](#testing)
  - [Deployment](#deployment)
  - [Credits](#credits)
  - [Aknowledgement](#aknowledgement)
@@ -56,6 +58,18 @@ trigger the interests of all the users who access this website.
 
 * Mobile Wireframe - [View](assets/wireframes/wireframe-mobile-ms2.pdf)
 
+
+## Design 
+  
+ **Main colours used throughout the pages are Light shade gray, Green and Black.**
+   - Three Main colours were used for the text, those were blue(#003893), red(#DC143C) and (#FFFFFF). Theses three colours were choosen to match the colour with flag of the Nepal therefore , blue background was set for navbar, white colour was mainly used on the Landing page, red colour was used for headings.
+
+## Typography
+
+- 'Yusei Magic' and 'Ovo' fonts are two font types used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into 
+the site correctly, Yusei Magic font used for all the headings and Ovo font used for all the paragraph texts.
+
+
 ### Features
  
 ##### Navigation Bar
@@ -82,6 +96,7 @@ trigger the interests of all the users who access this website.
   - The Contact Us section is allowing users to contact and communicate with the website’s creator or administrator by providing information of the office address, email address and phone number for the users who are interested to explore more about the country of interest. The Contact Us form is also provided for users who want to submit their inputs, opinions or comments about the website and its contents. The main purpose of the form is allowing users to submit their interests or experiences which can be added or included into the website as future reference for other users to explore this country of interest. By doing so, the website will gain additional information and becomes the place where users can collaborate and supporting one another to encourage more exploration towards this country of interest.
   - Users are alos expected to search various pages and links related to Nepal via social meadia too therefore Social media icons are added to this section which would redirect the users to access those social media’s websites in just one click.
   - This section also has an sign up button for user to sign up to the page , once sign up users will be getting all the updates on the website to their email directly, however this is not fully functioning yet and will be adding this functionality in future.
+  - Contact details displayed on this section doesnt belong to anyone and wnywhere and those information are imaginary and only used for webpage building purpose.
 
 ##### Scroll to top arrow
 - An upward arrow is also added to the right corner of the page which set to be only be visible once user scroll below from the landing page, purpose of this arrow is to take the user to the top of the page directly upon clicking on this arrow therefore user do not require to scroll manually all the way to the top of the page to access the Navbar, arrow will fade away in 2000ms once user reach to the landing page everytime and fade in again once user reach to the next page either by scrolling or by selecting the options from Navbar.
@@ -114,9 +129,9 @@ trigger the interests of all the users who access this website.
 1. [Popper.js](https://popper.js.org/) 
     - Popper.js was used for bootstrap modal
 1. [Google Maps JavaScript API](https://cloud.google.com/maps-platform/)
-   - Google Maps API was used to render the map and markers on the page using API key.
+    - Google Maps API was used to render the map and markers on the page using API key.
 1. [EmailJS API](https://www.emailjs.com/)
-  -  EmailJs API was used to create email sending function with JavaScript.
+    -  EmailJs API was used to create email sending function with JavaScript.
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the wireframes during the design process.
 1. [Gitpod](https://www.gitpod.io/)
@@ -131,6 +146,14 @@ trigger the interests of all the users who access this website.
     - Unicorn Revealer tool was used to identify any overflow issues
 1. [Lighthouse](https://developers.google.com/web/tools/lighthouse)
     - Lighthouse was used to test the performance and loading speed of the website
+1. [W3.CSS](https://www.w3schools.com/w3css/defaulT.asp) 
+    - General resources.
+1. [Stack Overflow](https://pt.stackoverflow.com/)
+    - General resources.
+1. [Youtube](https://www.youtube.com/) 
+   - General resources.
+1. Code Institute SLACK Community
+   -General resources
 
 
 ### Code Validation
@@ -143,9 +166,6 @@ trigger the interests of all the users who access this website.
   - JSHINT was used for JavaScript code warning & error check.
 
 
-## Testing
-
-#### Testing documentation can be found on seperate file - [CLICK HERE TO VIEW ](TEST.md)
 
 ## Issues and Resolutions
 - Issue with Navbar as Navbar did not overlay correctly on top of video on Home page which resulted Navbar appear seperately on top of the page and [video display only below Navbar](assets/bugs/issue-navbar.jpg).
@@ -175,6 +195,25 @@ ressolved an issue.
   - Initially I loaded carousel images to my index.html file using img tag, once I noticed issue above then I used css background property to upload the images which solved issue but I have noticed another issue agian as image height seen too small, I have then added new class of carouselImageSlider to all columns which had images and set height on style.css which then solved entire issue.
 
 
+## Testing
+
+#### Testing documentation can be found on seperate file - [CLICK HERE TO VIEW ](TEST.md)
+
+
+## Deployment
+
+### GitHub Pages
+
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh and the website is now deployed.
+6. Scroll back down to the GitHub Pages section to retrive the link to the deployed website.
+
+
 ## Credits
 - Thanks to True Coder for [youtube video](https://www.youtube.com/watch?v=rpujWVkmiPE) on Contact form, this video inspire me to create the unique contact form rather than just normal form, I have also taken some concept and also took some code while styling my contact form.
 - Thanks to zFunx Web Developement for [youtube video](https://www.youtube.com/watch?v=R7OcJyL_rbw) on Responsive Circle using CSS, I have taken some code from this video and modified as per my requirement.
@@ -187,4 +226,4 @@ ressolved an issue.
 - I have taken images and Text description inside the Carousel of information section from [holidify](https://www.holidify.com/pages/facts-about-nepal-2683.html).
 - I was relied on various resources to gather information and images of nepal, those including Pinterest(https://www.pinterest.co.uk/pin/99501472997803445/), [Kids-world-travel-guide.com](https://www.kids-world-travel-guide.com/nepal-facts.html), [Britannica](https://www.britannica.com/place/Nepal/Climate), [Wikipedia](https://en.wikipedia.org/wiki/Nepal) and [Google](https://www.google.com/) were my main source of information and images about nepal.
 - I have also taken some Image and Background video for my landing page from [Unsplash](https://unsplash.com/)
-- Logo that I have used on my Navbar is oficial symbol of Nepal and flag on the landing page is also official flag of Nepal, I have taken both from [Google](https://www.google.com/).
+- Logo and flag that I have used on my landing page is official symbol and flag of Nepal , I have taken both from [Google](https://www.google.com/).
