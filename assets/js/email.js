@@ -16,3 +16,10 @@ function sendMail(contactForm) {
             });
     return false;
 }
+
+
+
+$( "#contactForm" ).submit(function( event ) {
+  event.preventDefault();
+  alert( "Your Message has been sent !\n Thank you!!" );
+});

@@ -12,8 +12,8 @@
     <body>
     <!------------------Navigation--------------------->
          <header>
-        <div class="nav-brand">
-            <img src="assets/logo/logo-nepal.jpg" class="d-none d-md-block" alt="logo">
+        <div class="nav-brand"><span class="nav-title">Visit Nepal 2021</span>
+            <img src="assets/logo/logo-nepal.jpg" class="d-none d-sm-block" alt="logo">
         </div>
         <nav>
             <ul class="nav-links">
@@ -39,13 +39,9 @@
                     </div>
                     <h1 class="heading video-heading">Welcome to Nepal</h1>
                     <h2 class="video-heading-sub">"Land of Truth"</h2>
-                    <p class="heading-sub detail-heading d-none d-md-block">
-                        There is something about the Himalayas not possessed by Alps, something unseen and unknown, a charm
-                        that pervades every hour spent among them,
-                        a mystery intriguing and disturbing. Confronted by them, a man loses his grasp of ordinary things,
-                        perceiving himself as immortal, an entity
-                        capable of outdistancing all changes, all decay, all life, all death. <br>
-                        -Frank Smythe-
+                    <p class="detail-heading d-none d-sm-block">
+                        Namaste – It was a Nepalese greeting. It meant: The light within me bows to the light within you. <br>
+                        -Jennifer Donnelly-
                     </p>
                 </div>
             </div>
@@ -58,13 +54,13 @@
                     Himalayas, but also includes parts of the Indo-Gangetic
                     Plain. It is the 49th largest country by population and 93rd largest country by area. It is landlocked,
                     and borders Tibet in the north and India
-                    in the south, east and west. Nepal has a diverse geography, including fertile plains, subalpine forested
-                    hills, and eight of the world's ten tallest
-                    mountains, including Mount Everest, the highest point on Earth. Kathmandu is the capital and the largest
-                    city. Nepal is a multiethnic country, with
-                    Nepali as the official language. The most interesting fact is Nepal was never colonized by any other
-                    countries before. Gurkha or Nepalese Army is arguably
-                    the toughest soldier in the world and has a long establishment of relationships with the United Kingdom.
+                    in the south, east and west. Nepal is a multiethnic country, with
+                    Nepali as the official language. The country enjoys mainly a temperate climate. The landscape is dominated by the Himalayan
+                    mountains in the North, alpine pastures, fertile valleys and temperate forests in the middle hill region and the Tarai plains 
+                    in the South.<span class="d-none d-lg-block">Nepal is the largest country in the Himalayas 
+                    and about the size of the state of New York/USA, about half the size of Equador and quite a bit bigger than Austria, 
+                    Liechtenstein and Switzerland combined. To reach Nepal it takes a 13-hours flight to Kathmandu from London/UK or a 2-hours
+                    flight from Delhi/India. The shortest flights from the USA go via Dubai, Doha or Abu Dhabi and still take at least 21 hours!</span>
                 </p>
             </div>
             <div class="container-fluid container-carousel">
@@ -268,7 +264,7 @@
                     </div>
                     <div class="col-12 col-md-6 col-form">
                         <div class="contact-form">
-                            <form onsubmit="return sendMail(this);">
+                            <form id="contactForm" onsubmit="return sendMail(this);">
                                 <h1 class="heading heading-contact">Contact Us</h1>
                                 <label for="fname">First Name</label>
                                 <input type="text" id="fname" name="firstname" required placeholder="Your name" />
@@ -278,7 +274,7 @@
                                 <input type="text" id="email" name="email" required placeholder="Your email" />
                                 <label for="message">Mesage us !</label>
                                 <textarea id="message" name="message" placeholder="Write something.."></textarea>
-                                <input class="btn btn-success btn-form" type="submit" value="Send" />
+                                <input class="btn btn-success btn-form" type="submit" id="send" value="Send" />
                             </form>
                         </div>
                     </div>
