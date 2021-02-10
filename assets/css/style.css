@@ -736,6 +736,11 @@
 
     }
 
+    @media screen and (max-height: 736px){
+          .image-over-video img{
+              display: none;
+          }
+      }
 
     @media screen and (max-width: 576px){
         .video-heading-sub {
